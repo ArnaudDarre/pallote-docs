@@ -1,20 +1,20 @@
-# Website
+# Pallote Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to Pallote Docs! This repository hosts the documentation for [Pallote React](https://github.com/ArnaudDarre/palllote-react), an open-source React Component.
 
-### Installation
+### Run and deploy
+
+- Install dependencies
 
 ```shell
-npm
+npm i
 ```
 
-### Local Development
+- Start the local server
 
 ```shell
 npm start
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
 
