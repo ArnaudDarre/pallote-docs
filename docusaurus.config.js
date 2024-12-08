@@ -86,21 +86,21 @@ const config = {
         // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Pallote React',
+        title: 'Pallote',
         logo: {
           alt: 'Logo for Pallote React',
           src: 'img/logo.svg',
         },
         items: [
+          // {to: '/', label: 'Home', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ArnaudDarre/pallote-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -144,7 +144,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ArnaudDarre/pallote-docs',
               },
             ],
           },
