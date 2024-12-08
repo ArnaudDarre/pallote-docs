@@ -20,7 +20,7 @@ Component for every call-to-action.
 
 ### Type
 
-Change the button style.
+Change the input type property.
 
 <div class="docs__block">
   <Grid wrapper spacing={2}>
@@ -44,6 +44,8 @@ Change the button style.
 
 ### isFocused
 
+Focus on a input on page load.
+
 <div class="docs__block">
   <div class="docs__items">
     <Input id="isFocused" label="IsFocused" focus />
@@ -55,6 +57,8 @@ Change the button style.
 </div>
 
 ### Error
+
+Notify users that the field has an error.
 
 <div class="docs__block">
   <div class="docs__items">
@@ -68,6 +72,8 @@ Change the button style.
 
 ### Disabled
 
+Add this class to signal users the field is disabled.
+
 <div class="docs__block">
   <div class="docs__items">
     <Input id="disabled" label="Disabled" disabled />
@@ -78,7 +84,7 @@ Change the button style.
   ```
 </div>
 
-### Required
+### Optional
 
 <div class="docs__block">
   <div class="docs__items">
@@ -89,3 +95,13 @@ Change the button style.
   <Input id="required" label="Required" required />
   ```
 </div>
+
+## Props details
+
+| Name | Type | Values | Default |
+| - | - | - | - |
+| `type` | `oneOff` | `date` `email` `number` `tel` `text` `time` | `text` |
+| `isFocused` | `boolean` | | `false` |
+| `error` | `boolean` | | `false` |
+| `disabled` | `boolean` | | `false` |
+| `optional` | `boolean` | | `false` |

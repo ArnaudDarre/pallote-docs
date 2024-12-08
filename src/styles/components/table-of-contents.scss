@@ -5,7 +5,7 @@
 
 .table-of-contents {
   border-left: 0;
-  padding: .5rem .5rem .5rem 0;
+  padding: .5rem;
   border: $border;
   border-radius: $border-radius-md;
 
@@ -18,7 +18,7 @@
     padding-left: 0;
 
     .table-of-contents__link {
-      padding-left: 1.5rem;
+      padding-left: 1.25rem;
     }
   }
 
@@ -26,7 +26,8 @@
     position: relative;
     display: flex;
     align-items: center;
-    padding: .125rem .75rem;
+    padding: .125rem .5rem;
+    border-radius: $border-radius-sm;
 
     &:hover {
       color: inherit;
@@ -43,7 +44,7 @@
     &:before {
       content: "";
       position: absolute;
-      left: 0;
+      left: -.5rem;
       top: 0;
       height: 100%;
       width: 2px;

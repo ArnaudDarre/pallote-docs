@@ -26,8 +26,12 @@ a {
   text-underline-offset: .2em;
 }
 
-a:hover {
-  color: inherit;
+a {
+  border-radius: $border-radius-sm;
+
+  &:hover {
+    color: inherit;
+  }
 }
 
 .hash-link {
