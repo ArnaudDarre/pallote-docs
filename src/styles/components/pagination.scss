@@ -1,0 +1,26 @@
+.pagination-nav {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  
+  &__link {
+    border-radius: $border-radius-md !important;
+    
+    &:hover {
+      border-color: $primary !important;
+      color: inherit;
+
+      .pagination-nav__label {
+        text-decoration: underline;
+      }
+    }
+    
+    .pagination-nav__label {
+      color: $primary;
+    }
+
+    .pagination-nav__label:before,
+    .pagination-nav__label:after {
+      display: none;
+    }
+  }
+}

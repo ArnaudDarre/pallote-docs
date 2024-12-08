@@ -1,0 +1,44 @@
+.theme-code-block {
+  background-color: $grey-90 !important;
+  border-radius: $border-radius-md;
+  
+  .docs__block & {
+    margin: 1rem -1rem 0 -1rem;
+    border-top: $border;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: none;
+  }
+  
+  pre {
+    border-radius: $border-radius-md;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .prism-code {
+    background-color: transparent !important;
+  }
+
+  .tag {
+    background-color: transparent;
+    display: inline-block;
+    font-weight: inherit;
+    border-radius: 0;
+    white-space: pre;
+    height: fit-content;
+    padding: 0;
+  }
+
+  .buttonGroup__atx {
+    height: 2rem;
+    width: 2rem;
+    top: 0.625rem;
+    right: 0.625rem;
+  }
+}
+
+code {
+  padding-right: .4em;
+  padding-left: .4em;
+}

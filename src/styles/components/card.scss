@@ -1,0 +1,28 @@
+.card {
+
+  &.padding--lg {
+    padding: 1.5rem !important;
+    border-radius: $border-radius-lg;
+  }
+
+  h2 {
+    @extend %h6;
+    margin-bottom: .5rem;
+    overflow-x: hidden;
+    text-indent: -23px;
+    color: $primary;
+  }
+
+  p {
+    @extend %body;
+  }
+}
+
+.cardContainer_fWXF:hover {
+  border-color: $primary !important;
+  color: inherit;
+
+  h2 {
+    text-decoration: underline;
+  }
+}

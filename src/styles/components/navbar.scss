@@ -1,0 +1,22 @@
+.navbar {
+  height: $navbar-height;
+  position: fixed;
+
+  &__items {
+    gap: .5rem;
+  }
+
+  &__link {
+    border-radius: $border-radius-sm;
+    
+    &:hover:not(.navbar__link--active) {
+      text-decoration: underline;
+      color: inherit;
+    }
+    
+    &--active {
+      color: $primary !important;
+      background-color: $hover;
+    }
+  }
+}

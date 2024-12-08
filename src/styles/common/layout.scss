@@ -1,0 +1,95 @@
+// —————————————————————————————————————————————————————————————————
+// container
+// docs
+// —————————————————————————————————————————————————————————————————
+
+// —————————————————————————————————————————————————————————————————
+// container
+// —————————————————————————————————————————————————————————————————
+
+.main-wrapper {
+  min-height: 100vh;
+}
+
+// container
+
+.container {
+  padding-top: $navbar-height !important;
+  padding-right: 2rem;
+  padding-bottom: 0 !important;
+  padding-left: 2rem;
+
+  > .row {
+    margin: 0 -2rem;
+
+    > .col:not(.col--3) {
+      padding: 0 2rem;
+    }
+
+    > .col--3 {
+      padding-top: 2rem;
+      padding-right: 2rem;
+    }
+  }
+}
+
+// typography
+
+h1 {
+  @extend %h2;
+  margin-bottom: 1rem !important;
+  color: $primary;
+}
+
+h2 + p {
+  margin-top: -.5rem;
+}
+
+h3 + p {
+  margin-top: -.5rem;
+}
+
+.theme-doc-markdown {
+  
+  h2 {
+    margin-bottom: 2rem;
+  }
+
+}
+
+// grid links on main page
+
+.generatedIndexPage_vN6x {
+
+  .list_eTzJ {
+    margin: 0 -.5rem;
+
+    .col {
+      padding: 0 .5rem;
+      margin-bottom: 1rem !important;
+    }
+  }
+}
+
+// —————————————————————————————————————————————————————————————————
+// docs
+// —————————————————————————————————————————————————————————————————
+
+.docs {
+
+  
+  &__block {
+    padding: 1rem 1rem 0 1rem;
+    border: $border;
+    border-radius: $border-radius-md;
+  }
+
+  &__items {
+    display: flex;
+    gap: .5rem;
+
+    &--portrait {
+      flex-direction: column;
+    }
+  }
+}

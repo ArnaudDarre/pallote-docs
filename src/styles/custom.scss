@@ -1,0 +1,53 @@
+$fonts-path: '~/static/fonts/';
+$icons-path: '~/static/icons/';
+
+$primary: #00A3AE;
+
+@import '~/node_modules/pallote-css/dist/pallote.scss';
+
+
+:root {
+  // typography
+  --ifm-font-family-base: $font;
+  --ifm-font-weight-light: 400;
+  --ifm-font-weight-normal: 400;
+  --ifm-font-weight-semibold: 700;
+  --ifm-font-weight-bold: 700;
+  --ifm-font-weight-base: var(--ifm-font-weight-normal);
+  --ifm-font-size-base: 1rem;
+  --ifm-line-height-base: 1.5;
+}
+
+html {
+  background-color: $background-default;
+}
+
+a {
+  text-underline-offset: .2em;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.hash-link {
+  padding-right: .25rem !important;
+  padding-left: .25rem !important;
+  margin-left: .25rem;
+  border-radius: $border-radius-sm;
+  color: $text-alt;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+@import './common/layout.scss';
+
+@import './components/breadcrumbs.scss';
+@import './components/button.scss';
+@import './components/card.scss';
+@import './components/code-block.scss';
+@import './components/navbar.scss';
+@import './components/pagination.scss';
+@import './components/sidebar.scss';
+@import './components/table.scss';
+@import './components/table-of-contents.scss';
