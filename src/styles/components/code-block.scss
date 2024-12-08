@@ -1,9 +1,13 @@
 // simple code block
 
 code {
-  @extend %overline;
+  @extend %caption;
   padding-right: .4em;
   padding-left: .4em;
+  
+  .token {
+    @extend %caption;
+  }
 }
 
 // markdown highlighter

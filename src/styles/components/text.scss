@@ -1,0 +1,10 @@
+h1 {
+  @extend %h2;
+  margin-bottom: 1rem !important;
+  color: $primary;
+}
+
+h2 { @extend %h3; }
+h3 { @extend %h4; }
+h4 { @extend %h5; }
+h5 { @extend %h6; }

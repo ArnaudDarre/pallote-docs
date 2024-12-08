@@ -8,6 +8,7 @@ table {
 
     tr {
       border-bottom-width: 1px !important;
+      background-color: $hover;
     }
 
     th {
@@ -26,11 +27,13 @@ table {
     }
   }
 
+  tr:nth-child(2n) { background-color: rgba($white, 0.05); }
+
   th, td {
     padding: .3rem .5rem .5rem .5rem;
     border-color: $border-color;
 
-    &:last-of-type { border-left: 0 }
+    &:not(:last-of-type) { border-right: 0 }
   }
 
   th {
