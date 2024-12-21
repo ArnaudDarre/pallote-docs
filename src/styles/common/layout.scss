@@ -79,11 +79,18 @@
     border-top-left-radius: $border-radius-md;
     border-top-right-radius: $border-radius-md;
     display: flex;
+    flex-wrap: wrap;
     gap: .5rem;
     
     &--portrait {
       flex-direction: column;
     }
+  }
+  
+  &_row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
   }
 }
 

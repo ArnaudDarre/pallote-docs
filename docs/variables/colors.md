@@ -63,10 +63,3 @@ These are the default color style, which you can override them to match your own
 | `$info` | `#17A0CC` | <img valign='middle' height="24" alt='blue' src='https://readme-swatches.vercel.app/17A0CC?style=round'/> |
 | `$warning` | `#FFDC46` | <img valign='middle' height="24" alt='blue' src='https://readme-swatches.vercel.app/FFDC46?style=round'/> |
 | `$error` | `#EB5757` | <img valign='middle' height="24" alt='blue' src='https://readme-swatches.vercel.app/EB5757?style=round'/> |
-
-### UI
-
-| Name | Value | |
-| - | - | - |
-| `$white` | `#FFFFFF` | <img valign='middle' height="24" alt='blue' src='https://readme-swatches.vercel.app/FFFFFF?style=round'/> |
-| `$white` | `#FFFFFF` | <img valign='middle' height="24" alt='blue' src='https://readme-swatches.vercel.app/FFFFFF?style=round'/> |
