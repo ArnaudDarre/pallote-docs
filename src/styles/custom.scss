@@ -45,6 +45,7 @@ a {
 
 @import './common/layout.scss';
 
+@import './components/alert.scss';
 @import './components/breadcrumbs.scss';
 @import './components/button.scss';
 @import './components/card.scss';
@@ -54,3 +55,5 @@ a {
 @import './components/sidebar.scss';
 @import './components/table.scss';
 @import './components/table-of-contents.scss';
+@import './components/tabs.scss';
+@import './components/text.scss';

@@ -1,0 +1,22 @@
+.theme-admonition.alert {
+  position: relative;
+  max-width: unset;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: initial;
+
+  .admonitionIcon_Rf37 {
+    display: none;
+  }
+
+  .admonitionHeading_Gvgb {
+    text-transform: capitalize;
+    font-weight: $font-bold;
+    margin-bottom: 0;
+  }
+
+  .admonitionContent_BuS1 {
+    padding-bottom: .2em;
+  }
+}

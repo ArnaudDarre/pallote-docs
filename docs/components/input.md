@@ -1,5 +1,8 @@
 ---
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 import { Grid, Input } from "pallote-react"
 
 # Input
@@ -7,14 +10,27 @@ import { Grid, Input } from "pallote-react"
 Component for every call-to-action.
 
 <div class="docs__block">
-  <div class="docs__items">
-    <Input id="input" label="Input" />
-  </div>
-
-  ```jsx
   <Input id="input" label="Input" />
-  ```
 </div>
+
+
+<Tabs groupId="package" queryString>
+  <TabItem value="react" label="React">
+
+```jsx
+<Input id="input" label="Input" />
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<div class="input">
+  <label for="input" class="input_label">Input</label>
+  <input type="text" id="input" class="input_control">
+</div>
+```
+  </TabItem>
+</Tabs>
 
 ## Props
 
@@ -31,70 +47,157 @@ Change the input type property.
     <Grid item xs="6"><Input type="text" id="text" label="Text" /></Grid>
     <Grid item xs="6"><Input type="time" id="time" label="Time" /></Grid>
   </Grid>
-
-  ```jsx
-  <Input type="date" id="date" label="Date" />
-  <Input type="email" id="email" label="Email" />
-  <Input type="number" id="number" label="Number" />
-  <Input type="tel" id="tel" label="Telephone" />
-  <Input type="text" id="text" label="Text" />
-  <Input type="time" id="time" label="Time" />
-  ```
 </div>
+
+<Tabs groupId="package" queryString>
+  <TabItem value="react" label="React">
+
+```jsx
+<Input type="date" id="date" label="Date" />
+<Input type="email" id="email" label="Email" />
+<Input type="number" id="number" label="Number" />
+<Input type="tel" id="tel" label="Telephone" />
+<Input type="text" id="text" label="Text" />
+<Input type="time" id="time" label="Time" />
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<div class="input">
+  <label for="date" class="input_label">Date</label>
+  <input type="date" id="date" class="input_control">
+</div>
+
+<div class="input">
+  <label for="email" class="input_label">Email</label>
+  <input type="email" id="email" class="input_control">
+</div>
+
+<div class="input">
+  <label for="number" class="input_label">Number</label>
+  <input type="number" id="number" class="input_control">
+</div>
+
+<div class="input">
+  <label for="tel" class="input_label">Telephone</label>
+  <input type="tel" id="tel" class="input_control">
+</div>
+
+<div class="input">
+  <label for="text" class="input_label">Text</label>
+  <input type="text" id="text" class="input_control">
+</div>
+
+<div class="input">
+  <label for="time" class="input_label">Time</label>
+  <input type="time" id="time" class="input_control">
+</div>
+```
+  </TabItem>
+</Tabs>
 
 ### isFocused
 
 Focus on a input on page load.
 
 <div class="docs__block">
-  <div class="docs__items">
-    <Input id="isFocused" label="IsFocused" focus />
-  </div>
-
-  ```jsx
   <Input id="isFocused" label="IsFocused" focus />
-  ```
 </div>
+
+<Tabs groupId="package" queryString>
+  <TabItem value="react" label="React">
+
+```jsx
+<Input id="isFocused" label="IsFocused" focus />
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<div class="input input-focused">
+  <label for="focused" class="input_label">Focused</label>
+  <input type="text" id="focused" class="input_control">
+</div>
+```
+  </TabItem>
+</Tabs>
 
 ### Error
 
 Notify users that the field has an error.
 
 <div class="docs__block">
-  <div class="docs__items">
-    <Input id="error" label="Error" error />
-  </div>
-
-  ```jsx
   <Input id="error" label="Error" error />
-  ```
 </div>
+
+<Tabs groupId="package" queryString>
+  <TabItem value="react" label="React">
+
+```jsx
+<Input id="error" label="Error" error />
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<div class="input input-error">
+  <label for="error" class="input_label">Error</label>
+  <input type="text" id="error" class="input_control">
+</div>
+```
+  </TabItem>
+</Tabs>
 
 ### Disabled
 
 Add this class to signal users the field is disabled.
 
 <div class="docs__block">
-  <div class="docs__items">
-    <Input id="disabled" label="Disabled" disabled />
-  </div>
-
-  ```jsx
   <Input id="disabled" label="Disabled" disabled />
-  ```
 </div>
+
+<Tabs groupId="package" queryString>
+  <TabItem value="react" label="React">
+
+```jsx
+<Input id="disabled" label="Disabled" disabled />
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<div class="input input-disabled">
+  <label for="disabled" class="input_label">Disabled</label>
+  <input type="text" id="disabled" class="input_control">
+</div>
+```
+  </TabItem>
+</Tabs>
 
 ### Optional
 
 <div class="docs__block">
-  <div class="docs__items">
-    <Input id="required" label="Required" required />
-  </div>
-
-  ```jsx
   <Input id="required" label="Required" required />
-  ```
 </div>
+
+<Tabs groupId="package" queryString>
+  <TabItem value="react" label="React">
+
+```jsx
+<Input id="required" label="Required" required />
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<div class="input input-required">
+  <label for="required" class="input_label">Required</label>
+  <input type="text" id="required" class="input_control">
+</div>
+```
+  </TabItem>
+</Tabs>
 
 ## Props details
 

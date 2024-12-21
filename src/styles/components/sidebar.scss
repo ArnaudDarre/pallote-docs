@@ -1,5 +1,4 @@
 .theme-doc-sidebar-container {
-  background-color: $grey-90;
   border-right: 0 !important;
 }
 
@@ -8,7 +7,7 @@
 }
 
 nav.menu {
-  padding: 1rem;
+  padding: 2rem 1rem 2rem 2rem;
 
   li {
     margin-left: 0;
@@ -22,7 +21,7 @@ nav.menu {
       &-item {
         
         &:not(:first-child) {
-          margin-top: .25rem
+          margin-top: 0;
         }
         
         &-collapsible {
@@ -39,10 +38,9 @@ nav.menu {
       }
       
       .menu__list {
-        margin-top: .25rem;
-        margin-bottom: .25rem;
-        margin-left: .5rem;
-        padding-left: .5rem;
+        margin-top: 0;
+        margin-bottom: .5rem;
+        padding-left: 0;
         border-left: $border;
 
         li {
@@ -51,15 +49,17 @@ nav.menu {
 
         .menu__link {
           font-weight: $font-regular;
+          @extend %caption;
         }
       }
     }
 
     &__link {
-      @extend %caption;
+      @extend %body;
       font-weight: $font-bold;
-      padding: .125rem .5rem;
+      padding: .125rem .75rem .25rem;
       border-radius: $border-radius-sm;
+      position: relative;
 
       &:hover:not(.menu__link--active) {
         background: none;
@@ -68,6 +68,20 @@ nav.menu {
 
       &--active {
         color: $primary;
+
+        &.menu__link--sublist {
+          border-left: $border;
+        }
+
+        &:before {
+          content: "";
+          position: absolute;
+          left: -1px;
+          top: 0;
+          height: 100%;
+          width: 2px;
+          background-color: $primary;
+        }
       }
     }
 

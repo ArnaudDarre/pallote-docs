@@ -1,0 +1,46 @@
+.tabs-container {
+  border: $border;
+  border-radius: $border-radius-md;
+  
+  .docs__block + & {
+    border-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .margin-top--md {
+    margin-top: 0 !important;
+  }
+
+  .codeBlockContainer_Ckt0 {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .tabs {
+    border-bottom: $border;
+    overflow: visible;
+  }
+}
+
+.tabs__item {
+  margin-left: 0;  
+
+  &:hover,
+  &--active {
+    background-color: transparent;
+  }
+
+  &:hover:not(.tabs__item--active) {
+    text-decoration: underline;
+    text-underline-offset: .2em;
+  }
+  
+  &--active {
+    border-color: $primary;
+  }
+}
+
+.tabItem_Ymn6[hidden] {
+  display: none;
+}

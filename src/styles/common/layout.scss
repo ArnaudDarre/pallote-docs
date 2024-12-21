@@ -72,17 +72,15 @@
 
 .docs {
 
-  
   &__block {
-    padding: 1rem 1rem 0 1rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
     border: $border;
-    border-radius: $border-radius-md;
-  }
-
-  &__items {
+    border-top-left-radius: $border-radius-md;
+    border-top-right-radius: $border-radius-md;
     display: flex;
     gap: .5rem;
-
+    
     &--portrait {
       flex-direction: column;
     }
