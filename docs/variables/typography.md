@@ -8,7 +8,7 @@ Typography is at the core of every design system. Having consistent font styles 
 
 ## Override variables
 
-These are the default typographic style, which you can override them to match your own design system. See [Customise](/docs/getting-started/customise) for more information on how to override variables.
+These are the default typographic style, which you can override them to match your own design system. See [Usage](/docs/getting-started/usage) for more information on how to override variables.
 
 ## List of variables
 

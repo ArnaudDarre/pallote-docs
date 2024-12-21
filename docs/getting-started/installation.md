@@ -38,7 +38,7 @@ npm install pallote-css
 `pallote-css` is automatically added as a dependency when you install `pallote-react`.
 :::
 
-### Install with a CDN (for Pallote CSS)
+### Use a CDN (for Pallote CSS)
 
 Alternatively, you can install Pallote CSS via a CDN. Simply copy/paste this code in between the head tag of your website. This is the latest version of Pallote CSS.
 
@@ -46,6 +46,6 @@ Alternatively, you can install Pallote CSS via a CDN. Simply copy/paste this cod
 <link rel="stylesheet" href="https://cdn.jsdeliver.net/npm/pallote-css@1.0.0/dist/pallote.min.css">
 ```
 
-:::info
+:::warning
 Please note that for now, it is not possible to customise the library when using the CDN.
 :::
