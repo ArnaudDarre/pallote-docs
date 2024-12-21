@@ -102,14 +102,14 @@ Change the input type property.
 Focus on a input on page load.
 
 <div class="docs__block">
-  <Input id="isFocused" label="IsFocused" focus />
+  <Input id="Focused" label="IsFocused" isFocused />
 </div>
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
 
 ```jsx
-<Input id="isFocused" label="IsFocused" focus />
+<Input id="Focused" label="IsFocused" isFocused />
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
@@ -193,7 +193,7 @@ Add this class to signal users the field is disabled.
 ```html
 <div class="input input-required">
   <label for="required" class="input_label">Required</label>
-  <input type="text" id="required" class="input_control">
+  <input type="text" id="required" class="input_control" required>
 </div>
 ```
   </TabItem>
