@@ -15,18 +15,18 @@ Use these utility props and classes to override the text style of an element.
 
 <div class="docs__block docs__block--portrait">
   <div class="docs_row grid--ai-baseline">
-    <Text variant="h1 mt-0">Heading 1</Text>
-    <Text variant="h2 mt-0">Heading 2</Text>
-    <Text variant="h3 mt-0">Heading 3</Text>
-    <Text variant="h4 mt-0">Heading 4</Text>
-    <Text variant="h5 mt-0">Heading 5</Text>
-    <Text variant="h6 mt-0">Heading 6</Text>
+    <Text variant="h1">Heading 1</Text>
+    <Text variant="h2">Heading 2</Text>
+    <Text variant="h3">Heading 3</Text>
+    <Text variant="h4">Heading 4</Text>
+    <Text variant="h5">Heading 5</Text>
+    <Text variant="h6">Heading 6</Text>
   </div>
   <div class="docs_row grid--ai-baseline">
-    <Text variant="subtitle mt-0">Subtitle</Text>
-    <Text variant="body mt-0">Body</Text>
-    <Text variant="caption mt-0">Caption</Text>
-    <Text variant="overline mt-0">Overline</Text>
+    <Text variant="subtitle">Subtitle</Text>
+    <Text variant="body">Body</Text>
+    <Text variant="caption">Caption</Text>
+    <Text variant="overline">Overline</Text>
   </div>
 </div>
 
@@ -34,12 +34,12 @@ Use these utility props and classes to override the text style of an element.
   <TabItem value="react" label="React">
 
 ```jsx
-<Text variant="h1">h1</Text>
-<Text variant="h2">h2</Text>
-<Text variant="h3">h3</Text>
-<Text variant="h4">h4</Text>
-<Text variant="h5">h5</Text>
-<Text variant="h6">h6</Text>
+<Text variant="h1">Heading 1</Text>
+<Text variant="h2">Heading 2</Text>
+<Text variant="h3">Heading 3</Text>
+<Text variant="h4">Heading 4</Text>
+<Text variant="h5">Heading 5</Text>
+<Text variant="h6">Heading 6</Text>
 
 <Text variant="subtitle">Subtitle</Text>
 <Text variant="body">Body</Text>
@@ -50,17 +50,75 @@ Use these utility props and classes to override the text style of an element.
   <TabItem value="css" label="CSS">
 
 ```html
-<h1 class="h1">h1</h1>
-<h2 class="h2">h2</h2>
-<h3 class="h3">h3</h3>
-<h4 class="h4">h4</h4>
-<h5 class="h5">h5</h5>
-<h6 class="h6">h6</h6>
+<h1 class="h1">Heading 1</h1>
+<h2 class="h2">Heading 2</h2>
+<h3 class="h3">Heading 3</h3>
+<h4 class="h4">Heading 4</h4>
+<h5 class="h5">Heading 5</h5>
+<h6 class="h6">Heading 6</h6>
 
 <p class="subtitle">Subtitle</p>
 <p class="body">Body</p>
 <p class="caption">Caption</p>
 <p class="overline">Overline</p>
+```
+  </TabItem>
+</Tabs>
+
+:::warning This prop is only related to styling
+In order to use the correct semantic component, you need to combine it with the `component` prop (for `pallote-react`) or use the correct HTML tag (for `pallote-css`).
+:::
+
+### Component
+
+<div class="docs__block docs__block--portrait">
+  <div class="docs_row grid--ai-baseline">
+    <Text component="h1" variant="body">h1</Text>
+    <Text component="h2" variant="body">h2</Text>
+    <Text component="h3" variant="body">h3</Text>
+    <Text component="h4" variant="body">h4</Text>
+    <Text component="h5" variant="body">h5</Text>
+    <Text component="h6" variant="body">h6</Text>
+  </div>
+  <div class="docs_row grid--ai-baseline">
+    <Text component="p">p (default)</Text>
+    <Text component="span">span</Text>
+    <Text component="label">label</Text>
+    <Text component="legend">legend</Text>
+  </div>
+</div>
+
+<Tabs groupId="package" queryString>
+  <TabItem value="react" label="React">
+
+```jsx
+<Text component="h1">h1</Text>
+<Text component="h2">h2</Text>
+<Text component="h3">h3</Text>
+<Text component="h4">h4</Text>
+<Text component="h5">h5</Text>
+<Text component="h6">h6</Text>
+
+<Text component="p">p (default)</Text>
+<Text component="span">span</Text>
+<Text component="label">label</Text>
+<Text component="legend">legend</Text>
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6>
+
+<p>Subtitle</p>
+<span>Body</span>
+<label>Caption</label>
+<legend>Overline</legend>
 ```
   </TabItem>
 </Tabs>
@@ -295,26 +353,26 @@ Use these utility props and classes to override the text style of an element.
 ## Examples
 
 <div class="docs__block docs__block--portrait">
-  <Text variant="h4" underline>Be mindful of text sizes</Text>
+  <Text variant="h4" component="h3" underline>Be mindful of text sizes</Text>
   <Text variant="caption" italic color="success">And colour contrast</Text>
-  <Text variant="body" weight="bold">When writing content</Text>
+  <Text variant="body" component="span" weight="bold">When writing content</Text>
 </div>
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
 
 ```jsx
-<Text variant="h4" underline>Be mindful of text sizes</Text>
+<Text variant="h4" component="h3" underline>Be mindful of text sizes</Text>
 <Text variant="caption" italic color="success">And colour contrast</Text>
-<Text variant="body" weight="bold">When writing content</Text>
+<Text variant="body" component="span" weight="bold">When writing content</Text>
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
 
 ```html
-<p class="h4 text-underline">Be mindful of text sizes</p>
+<h3 class="h4 text-underline">Be mindful of text sizes</h3>
 <p class="caption text-italic text-success">And colour contrast</p>
-<p class="body text-bold">When writing content</p>
+<span class="body text-bold">When writing content</span>
 ```
   </TabItem>
 </Tabs>

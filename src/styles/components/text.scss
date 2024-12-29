@@ -8,3 +8,14 @@ h2 { @extend %h3; }
 h3 { @extend %h4; }
 h4 { @extend %h5; }
 h5 { @extend %h6; }
+
+.docs-doc-id-utilities\/text .docs__block {
+
+  h1 { color: inherit; }
+  h1, h2, h3, h4, h5, h6,
+  p, span {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+  }
+}
