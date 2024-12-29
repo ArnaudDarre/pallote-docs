@@ -9,22 +9,24 @@ import { Text } from "pallote-react"
 
 Use these utility props and classes to override the text style of an element.
 
-## Variant
+## Props
+
+### Variant
 
 <div class="docs__block docs__block--portrait">
   <div class="docs_row grid--ai-baseline">
-    <Text variant="h1">h1</Text>
-    <Text variant="h2">h2</Text>
-    <Text variant="h3">h3</Text>
-    <Text variant="h4">h4</Text>
-    <Text variant="h5">h5</Text>
-    <Text variant="h6">h6</Text>
+    <Text variant="h1 mt-0">Heading 1</Text>
+    <Text variant="h2 mt-0">Heading 2</Text>
+    <Text variant="h3 mt-0">Heading 3</Text>
+    <Text variant="h4 mt-0">Heading 4</Text>
+    <Text variant="h5 mt-0">Heading 5</Text>
+    <Text variant="h6 mt-0">Heading 6</Text>
   </div>
   <div class="docs_row grid--ai-baseline">
-    <Text variant="subtitle">Subtitle</Text>
-    <Text variant="body">Body</Text>
-    <Text variant="caption">Caption</Text>
-    <Text variant="overline">Overline</Text>
+    <Text variant="subtitle mt-0">Subtitle</Text>
+    <Text variant="body mt-0">Body</Text>
+    <Text variant="caption mt-0">Caption</Text>
+    <Text variant="overline mt-0">Overline</Text>
   </div>
 </div>
 
@@ -63,37 +65,37 @@ Use these utility props and classes to override the text style of an element.
   </TabItem>
 </Tabs>
 
-## Align
+### Align
 
 <div class="docs__block docs__block--portrait">
-  <Text align="left" className="w-100">Left</Text>
-  <Text align="center" className="w-100">Center</Text>
-  <Text align="right" className="w-100">Right</Text>
-  <Text align="justify" className="w-100">Justify</Text>
+  <Text align="left" className="w-100">Align left and rub whiskers on bare skin act innocent. Catto munch salmono while happily ignoring when being called terrorize the hundred-and-twenty-pound rottweiler and steal his bed, not sorry eat from dog's food.</Text>
+  <Text align="center" className="w-100">Align center and stare at ceiling cough hairball on conveniently placed pants and break lamps and curl up into a ball, so get scared by sudden appearance of cucumber hack step on your keyboard while you're gaming and then turn in a circle.</Text>
+  <Text align="right" className="w-100">Align right lick master's hand at first then bite because im moody chew the plant scratch my tummy actually i hate you now fight me. Sun bathe steal the warm chair right after you get up.</Text>
+  <Text align="justify" className="w-100">Align justify meow in empty rooms mew mew. I love cats i am one wake up scratch humans leg for food then purr then i have a and relax lick master's hand at first then bite because im moody dismember a mouse and then regurgitate parts of it on the family room floor.</Text>
 </div>
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
 
 ```jsx
-<Text align="left">Left</Text>
-<Text align="center">Center</Text>
-<Text align="right">Right</Text>
-<Text align="justify">Justify</Text>
+<Text align="left">Left{/* content */}</Text>
+<Text align="center">Center{/* content */}</Text>
+<Text align="right">Right{/* content */}</Text>
+<Text align="justify">Justify{/* content */}</Text>
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
 
 ```html
-<p class="text-left">Left</p>
-<p class="text-center">Center</p>
-<p class="text-right">Right</p>
-<p class="text-justify">Justify</p>
+<p class="text-left"><!-- content --></p>
+<p class="text-center"><!-- content --></p>
+<p class="text-right"><!-- content --></p>
+<p class="text-justify"><!-- content --></p>
 ```
   </TabItem>
 </Tabs>
 
-## Weight
+### Weight
 
 <div class="docs__block">
   <Text weight="light">Light</Text>
@@ -120,7 +122,7 @@ Use these utility props and classes to override the text style of an element.
   </TabItem>
 </Tabs>
 
-## Transform
+### Transform
 
 <div class="docs__block">
   <Text transform="none">None</Text>
@@ -156,7 +158,7 @@ Use these utility props and classes to override the text style of an element.
   </TabItem>
 </Tabs>
 
-## Underline
+### Underline
 
 <div class="docs__block">
   <Text underline>Underline</Text>
@@ -177,7 +179,7 @@ Use these utility props and classes to override the text style of an element.
   </TabItem>
 </Tabs>
 
-## Italic
+### Italic
 
 <div class="docs__block">
   <Text italic>Italic</Text>
@@ -198,7 +200,7 @@ Use these utility props and classes to override the text style of an element.
   </TabItem>
 </Tabs>
 
-## Code
+### Code
 
 <div class="docs__block">
   <Text code>Code</Text>
@@ -219,7 +221,7 @@ Use these utility props and classes to override the text style of an element.
   </TabItem>
 </Tabs>
 
-## Color
+### Color
 
 <div class="docs__block docs__block--portrait">
   <div class="docs_row">
@@ -286,6 +288,33 @@ Use these utility props and classes to override the text style of an element.
 <p class="text-info">Info</p>
 <p class="text-warning">Warning</p>
 <p class="text-error">Error</p>
+```
+  </TabItem>
+</Tabs>
+
+## Examples
+
+<div class="docs__block docs__block--portrait">
+  <Text variant="h4" underline>Be mindful of text sizes</Text>
+  <Text variant="caption" italic color="success">And colour contrast</Text>
+  <Text variant="body" weight="bold">When writing content</Text>
+</div>
+
+<Tabs groupId="package" queryString>
+  <TabItem value="react" label="React">
+
+```jsx
+<Text variant="h4" underline>Be mindful of text sizes</Text>
+<Text variant="caption" italic color="success">And colour contrast</Text>
+<Text variant="body" weight="bold">When writing content</Text>
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<p class="h4 text-underline">Be mindful of text sizes</p>
+<p class="caption text-italic text-success">And colour contrast</p>
+<p class="body text-bold">When writing content</p>
 ```
   </TabItem>
 </Tabs>
