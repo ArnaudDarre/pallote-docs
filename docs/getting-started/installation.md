@@ -34,7 +34,7 @@ npm install pallote-css
   </TabItem>
 </Tabs>
 
-:::info
+:::info Package dependency
 `pallote-css` is automatically added as a dependency when you install `pallote-react`.
 :::
 
@@ -46,6 +46,6 @@ Alternatively, you can install Pallote CSS via a CDN. Simply copy/paste this cod
 <link rel="stylesheet" href="https://cdn.jsdeliver.net/npm/pallote-css@1.0.0/dist/pallote.min.css">
 ```
 
-:::warning
+:::warning Custom variables with CDN
 Please note that for now, it is not possible to customise the library when using the CDN.
 :::

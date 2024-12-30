@@ -11,7 +11,7 @@ Use this utility props and classes to apply a custom background or stroke colour
 
 If you are using the React package, wrap your component with the `<Color />` component. For Pallote CSS, simply apply the classes to your element.
 
-:::info
+:::info Text colour
 The text colour is automatically applied using the `contrast` colour variables.
 :::
 

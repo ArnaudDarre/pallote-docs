@@ -48,7 +48,7 @@ $primary: #007A1E;
   </TabItem>
 </Tabs>
 
-:::info
+:::info Code order
 The code must be placed above any import of Pallote CSS.
 :::
 
@@ -79,7 +79,7 @@ To change a component style, see the documentation for each component and add cr
   </TabItem>
 </Tabs>
 
-:::info
+:::info Code order
 The class must be placed below any import of Pallote CSS.
 :::
 
