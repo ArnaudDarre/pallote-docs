@@ -91,7 +91,6 @@ Change the button style.
   </TabItem>
 </Tabs>
 
-
 ### Color
 
 <div class="docs__block">
@@ -118,7 +117,6 @@ Change the button style.
 ```
   </TabItem>
 </Tabs>
-
 
 ### Fullwidth
 
