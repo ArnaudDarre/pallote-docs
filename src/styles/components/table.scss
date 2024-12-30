@@ -39,7 +39,15 @@ table {
 
 .docs-doc-id-variables\/colors {
 
-  table tr td:not(:last-of-type) {
-    width: 45%;
+  table tr td {
+
+    &:not(:last-of-type) { width: 45%; }
+    &:last-of-type {
+      text-align: right;
+
+      img {
+        width: fit-content;
+      }
+    }
   }
 }
