@@ -3,7 +3,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-import { Grid, Textarea } from "pallote-react"
+import { Textarea } from "pallote-react"
 
 # Textarea
 
@@ -39,14 +39,14 @@ Styling for a textarea field. This component uses the same structure as the [Inp
 Focus on a input on page load.
 
 <div class="docs__block">
-  <Textarea id="isFocused" label="IsFocused" isFocused />
+  <Textarea id="focused" label="IsFocused" isFocused />
 </div>
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
 
 ```jsx
-<Textarea id="isFocused" label="IsFocused" isFocused />
+<Textarea id="focused" label="IsFocused" isFocused />
 ```
   </TabItem>
   <TabItem value="css" label="CSS">

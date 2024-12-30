@@ -102,14 +102,14 @@ Change the input type property.
 Focus on a input on page load.
 
 <div class="docs__block">
-  <Input id="Focused" label="IsFocused" isFocused />
+  <Input id="focused" label="IsFocused" isFocused />
 </div>
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
 
 ```jsx
-<Input id="Focused" label="IsFocused" isFocused />
+<Input id="focused" label="IsFocused" isFocused />
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
