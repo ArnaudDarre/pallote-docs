@@ -18,7 +18,7 @@ For the React package, use the `<Display />` component. This fully removes its c
 ### Show
 
 <div class="docs__block docs__block--portrait">
-  <Display show="mobile-sm">
+  <Display show="mobileSm">
     <Card size="xs"><CardContent>Show on small mobile</CardContent></Card>
   </Display>
   <Display show="mobile">
@@ -34,7 +34,7 @@ For the React package, use the `<Display />` component. This fully removes its c
     <Card size="xs"><CardContent>Show on desktop</CardContent></Card>
   </Display>
   <Display show="touch">
-    <Card size="xs"><CardContent>Show on desktop</CardContent></Card>
+    <Card size="xs"><CardContent>Show on touch devices (like mobile or tablets)</CardContent></Card>
   </Display>
 </div>
 
@@ -42,7 +42,7 @@ For the React package, use the `<Display />` component. This fully removes its c
   <TabItem value="react" label="React">
 
 ```jsx
-<Display show="mobile-sm">{/* content */} </Display>
+<Display show="mobileSm">{/* content */} </Display>
 <Display show="mobile">{/* content */} </Display>
 <Display show="tablet">{/* content */} </Display>
 <Display show="laptop">{/* content */} </Display>
@@ -53,11 +53,11 @@ For the React package, use the `<Display />` component. This fully removes its c
   <TabItem value="css" label="CSS">
 
 ```html
-<div class="show-desktop"><!-- content --></div>
-<div class="show-laptop"><!-- content --></div>
-<div class="show-tablet"><!-- content --></div>
-<div class="show-mobile"><!-- content --></div>
 <div class="show-mobileSm"><!-- content --></div>
+<div class="show-mobile"><!-- content --></div>
+<div class="show-tablet"><!-- content --></div>
+<div class="show-laptop"><!-- content --></div>
+<div class="show-desktop"><!-- content --></div>
 <div class="show-touch"><!-- content --></div>
 ```
   </TabItem>
@@ -66,7 +66,7 @@ For the React package, use the `<Display />` component. This fully removes its c
 ### Hide
 
 <div class="docs__block docs__block--portrait">
-  <Display hide="mobile-sm">
+  <Display hide="mobileSm">
     <Card size="xs"><CardContent>Show on small mobile</CardContent></Card>
   </Display>
   <Display hide="mobile">
@@ -82,7 +82,7 @@ For the React package, use the `<Display />` component. This fully removes its c
     <Card size="xs"><CardContent>Show on desktop</CardContent></Card>
   </Display>
   <Display hide="touch">
-    <Card size="xs"><CardContent>Show on desktop</CardContent></Card>
+    <Card size="xs"><CardContent>Show on touch devices (like mobile or tablets)</CardContent></Card>
   </Display>
 </div>
 
@@ -90,7 +90,7 @@ For the React package, use the `<Display />` component. This fully removes its c
   <TabItem value="react" label="React">
 
 ```jsx
-<Display hide="mobile-sm">{/* content */} </Display>
+<Display hide="mobileSm">{/* content */} </Display>
 <Display hide="mobile">{/* content */} </Display>
 <Display hide="tablet">{/* content */} </Display>
 <Display hide="laptop">{/* content */} </Display>
@@ -110,3 +110,10 @@ For the React package, use the `<Display />` component. This fully removes its c
 ```
   </TabItem>
 </Tabs>
+
+## Props details
+
+| Prop | Values | Default |
+| - | - | - |
+| show | `mobileSm` `mobile` `tablet` `laptop` `desktop` `touch` | `-` | 
+| hide | `mobileSm` `mobile` `tablet` `laptop` `desktop` `touch` | `-` |

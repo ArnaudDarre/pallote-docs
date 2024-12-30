@@ -95,6 +95,7 @@ For a React component, add a `className` prop to the component. It will be appli
 ```jsx
 import React from 'react';
 import { Button } from 'palotte-react';
+import 'path/to/custom.css';
 
 export default function ButtonTest() {
   return <Button className="custom-class">Hello Pallote</Button>;

@@ -350,6 +350,20 @@ In order to use the correct semantic component, you need to combine it with the 
   </TabItem>
 </Tabs>
 
+## Props details
+
+| Prop | Values | Default |
+| - | - | - |
+| variant | `h1` `h2` `h3` `h4` `h5` `h6` <br></br> `subtitle` `body` `caption` `overline` | `body` |
+| component | `h1` `h2` `h3` `h4` `h5` `h6`<br></br>  `p` `span` `label` `legend` | `p` |
+| align | `left` `center` `right` `justify` | `left` |
+| weight | `light` `regular` `bold` | `regular` |
+| transform | `none` `capitalize` `uppercase` `lowercase` `initial` `inherit` | `-` |
+| underline | `bool` | `false` |
+| italic | `bool` | `false` |
+| code | `bool` | `false` |
+| color | `default` `alt` `disabled` <br></br> `contrast` `contrastAlt` `contrastDisabled` <br></br> `primary` `secondary` `highlight` <br></br> `success` `info` `warning` `error` | `default` |
+
 ## Examples
 
 <div class="docs__block docs__block--portrait">

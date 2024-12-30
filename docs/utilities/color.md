@@ -9,7 +9,7 @@ import { Layer, Text } from "pallote-react"
 
 Use this utility props and classes to apply a custom background or stroke colour to an element.
 
-If you are using the React package, wrap your component with the `<Color />` component. For Pallote CSS, simply apply the classes to your element.
+If you are using the React package, wrap your component within the `<Layer />` component. For Pallote CSS, simply apply the classes to your element.
 
 :::info Text colour
 The text colour is automatically applied using the `contrast` colour variables.
@@ -263,14 +263,26 @@ The text colour is automatically applied using the `contrast` colour variables.
   </TabItem>
 </Tabs>
 
+## Props details
+
+| Prop | Values | Default |
+| - | - | - |
+| fill | `black` `white` <br></br> `background` `paper` <br></br> `grey90` `grey80` `grey70` `grey60` `grey50` `grey40` `grey30` `grey20` `grey10` `grey5` <br></br> `primary` `secondary` `highlight` <br></br> `success` `info` `warning` `error` | `-` |
+| stroke | `black` `white` <br></br> `background` `paper` <br></br> `grey90` `grey80` `grey70` `grey60` `grey50` `grey40` `grey30` `grey20` `grey10` `grey5` <br></br> `primary` `secondary` `highlight` <br></br> `success` `info` `warning` `error` | `-` |
+
 ## Examples
 
 You can combine both props, or nest Layer components inside one another.
 
 <div class="docs__block grid--ai-center">
-  <Layer fill="grey70" stroke="white" className={'p-1 br-sm w-rem-15'}><Text variant="caption">Example 1</Text></Layer>
-  <Layer fill="grey50" className={'p-1 br-md'}>
-    <Layer fill="grey80" className={'p-1 br-sm w-rem-15'}><Text variant="caption">Example 2</Text></Layer>
+  <Layer fill="grey70" stroke="white" className={'p-1 br-sm w-rem-15'}>
+    <Text variant="caption">Example 1</Text>
+  </Layer>
+  <Layer fill="white" className={'p-1 br-md'}>
+    <Text variant="caption">Example 2</Text>
+    <Layer fill="primary" className={'p-1 mt-1 br-sm w-rem-15'}>
+      <Text variant="caption">Example 2</Text>
+    </Layer>
   </Layer>
 </div>
 
@@ -279,8 +291,8 @@ You can combine both props, or nest Layer components inside one another.
 
 ```jsx
 <Layer fill="grey70" stroke="white"></Layer>
-<Layer fill="grey50">
-  <Layer fill="grey80"></Layer>
+<Layer fill="white">
+  <Layer fill="primary"></Layer>
 </Layer>
 ```
   </TabItem>
@@ -288,8 +300,8 @@ You can combine both props, or nest Layer components inside one another.
 
 ```html
 <div class="fill-grey70 stroke-white"></div>
-<div class="fill-grey50">
-  <div class="fill-grey80"></div>
+<div class="fill-white">
+  <div class="fill-primary"></div>
 </div>
 ```
   </TabItem>
