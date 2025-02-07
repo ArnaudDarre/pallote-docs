@@ -4,6 +4,10 @@ code {
   @extend %caption;
   padding-right: .4em;
   padding-left: .4em;
+  border: $border;
+  border-radius: $border-radius-sm;
+  background-color: $grey-90;
+  color: $text-contrast;
   
   .token {
     @extend %caption;
@@ -12,9 +16,15 @@ code {
 
 // markdown highlighter
 
+
 .theme-code-block {
   background-color: $grey-90 !important;
+  border: $border;
   border-radius: $border-radius-md;
+  
+  &.codeBlockContainer_Ckt0 {
+    box-shadow: none;
+  }
   
   .docs__block & {
     margin: 1rem -1rem 0 -1rem;
@@ -54,14 +64,14 @@ code {
     right: 0.625rem;
 
     button {
-      background-color: $black;
+      background-color: $contrast;
     }
 
     .copyButtonIcon_y97N, .wordWrapButtonIcon_Bwma { color: $text; }
     .copyButtonSuccessIcon_LjdS { color: $success; }
   }
 
-  .class-name,.tag:not(.attr-value):not(.attr-name):not(.punctuation) { color: $primary !important; }
-  .punctuation { color: $grey-20 !important; }
-  .attr-name { color: $primary-light !important; }
+  // .class-name,.tag:not(.attr-value):not(.attr-name):not(.punctuation) { color: $primary !important; }
+  // .punctuation { color: $grey-20 !important; }
+  // .attr-name { color: $primary-light !important; }
 }

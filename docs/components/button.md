@@ -3,6 +3,7 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+import { Coffee, Moon, Sun } from '@phosphor-icons/react'
 import { Button } from "pallote-react"
 
 # Button
@@ -31,6 +32,30 @@ Component for every call-to-action.
 ## Props
 
 ### Kind
+
+Change the button style.
+
+<div class="docs__block">
+  <Button>Default</Button>
+  <Button kind="icon"><Coffee /></Button>
+</div>
+
+<Tabs groupId="package" queryString>
+   <TabItem value="react" label="React">
+  
+```jsx
+<Button>Default</Button>
+<Button kind="icon">{/* insert icon */}</Button>
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<button>Default</button>
+<button class="button button-icon"><!-- insert icon --></button>
+```
+  </TabItem>
+</Tabs>
 
 ### Variant
 
@@ -64,29 +89,29 @@ Change the button style.
 ### Size
 
 <div class="docs__block">
-  <Button size="xsmall">Xsmall</Button>
-  <Button size="small">Small</Button>
+  <Button size="xs">Xsmall</Button>
+  <Button size="sm">Small</Button>
   <Button>Medium</Button>
-  <Button size="large">Large</Button>
+  <Button size="lg">Large</Button>
 </div>
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
 
 ```jsx
-<Button size="xsmall">Xsmall</Button>
-<Button size="small">Small</Button>
+<Button size="xs">Xsmall</Button>
+<Button size="sm">Small</Button>
 <Button>Medium</Button>
-<Button size="large">Large</Button>
+<Button size="lg">Large</Button>
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
 
 ```html
-<button class="button button-xsmall">Xsmall</button>
-<button class="button button-small">Small</button>
+<button class="button button-xs">Xsmall</button>
+<button class="button button-sm">Small</button>
 <button class="button">Medium</button>
-<button class="button button-large">Large</button>
+<button class="button button-lg">Large</button>
 ```
   </TabItem>
 </Tabs>
@@ -118,7 +143,7 @@ Change the button style.
   </TabItem>
 </Tabs>
 
-### Fullwidth
+### FullWidth
 
 <div class="docs__block">
   <Button fullWidth>Full width</Button>
@@ -159,5 +184,3 @@ Change the button style.
 ```
   </TabItem>
 </Tabs>
-
-## Examples

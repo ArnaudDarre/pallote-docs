@@ -74,13 +74,14 @@
 
   &__block {
     margin-top: 2rem;
+    margin-bottom: 1rem;
     padding: 1.5rem;
     border: $border;
-    border-top-left-radius: $border-radius-md;
-    border-top-right-radius: $border-radius-md;
+    border-radius: $border-radius-lg;
     display: flex;
     flex-wrap: wrap;
     gap: .5rem;
+    background-color: $background-paper;
     
     &--portrait {
       flex-direction: column;

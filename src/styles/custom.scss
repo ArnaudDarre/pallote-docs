@@ -1,8 +1,6 @@
 $fonts-path: '~/static/fonts/';
 $icons-path: '~/static/icons/';
 
-$primary: #00A3AE;
-
 @import '~/node_modules/pallote-css/dist/pallote.scss';
 
 :root {
@@ -15,6 +13,8 @@ $primary: #00A3AE;
   --ifm-font-weight-base: var(--ifm-font-weight-normal);
   --ifm-font-size-base: 1rem;
   --ifm-line-height-base: 1.5;
+  --ifm-menu-color: #000A1E;
+  --ifm-toc-link-color: #000A1E;
 }
 
 html {

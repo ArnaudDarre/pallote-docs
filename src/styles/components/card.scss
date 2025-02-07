@@ -18,11 +18,17 @@
   }
 }
 
-.cardContainer_fWXF:hover {
-  border-color: $primary !important;
-  color: inherit;
-
-  h2 {
-    text-decoration: underline;
+.card.cardContainer_fWXF {
+  box-shadow: none;
+  border: $border;
+  
+  &:hover {
+    box-shadow: none;
+    border-color: $border-color !important;
+    color: inherit;
+    
+    h2 {
+      text-decoration: underline;
+    }
   }
 }
