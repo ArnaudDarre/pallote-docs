@@ -3,8 +3,7 @@
 
 # Typography
 
-Typography is at the core of every design system. Having consistent font styles is paramount. 
-
+Typography is at the core of every design system. Having consistent font styles is paramount to make sure that users scan and consume your information well.
 
 ## Override variables
 
@@ -16,15 +15,15 @@ These are the default typographic style, which you can override them to match yo
 
 | Name | Value | |
 | - | - | - |
-| `$font` | `"Barlow", Arial, sans-serif` | This is the default text |
+| `$font` | `"Source Sans Pro"` | This is the default text |
+| `$font-fallback` | `Arial, sans-serif` | |
 
 ### Weight
 
 | Name | Value | |
 | - | - | - |
-| `$font-regular` | `400` | <span class="text--regular">Regular</span> |
-| `$font-bold` | `700` | <span class="text--bold">Bold</span> |
-| `$font-black` | `900` | <span class="text--black">Black</span> |
+| `$font-regular` | `400` | <span class="text-regular">Regular</span> |
+| `$font-bold` | `700` | <span class="text-bold">Bold</span> |
 
 ### Styles
 
@@ -32,8 +31,8 @@ These are the default typographic style, which you can override them to match yo
 
 | Name | Value | |
 | - | - | - |
-| `$h1-size`<br></br>`$h1-weight`<br></br>`$h1-line-height` | `3rem`<br></br>`$font-black`<br></br>`1.25` | <span class="h1">h1</span> |
-| `$h2-size`<br></br>`$h2-weight`<br></br>`$h2-line-height` | `2.5rem`<br></br>`$font-black`<br></br>`1.25` | <span class="h2">h2</span> |
+| `$h1-size`<br></br>`$h1-weight`<br></br>`$h1-line-height` | `3rem`<br></br>`$font-bold`<br></br>`1.25` | <span class="h1">h1</span> |
+| `$h2-size`<br></br>`$h2-weight`<br></br>`$h2-line-height` | `2.5rem`<br></br>`$font-bold`<br></br>`1.25` | <span class="h2">h2</span> |
 | `$h3-size`<br></br>`$h3-weight`<br></br>`$h3-line-height` | `2rem`<br></br>`$font-bold`<br></br>`1.25` | <span class="h3">h3</span> |
 | `$h4-size`<br></br>`$h4-weight`<br></br>`$h4-line-height` | `1.75rem`<br></br>`$font-bold`<br></br>`1.25` | <span class="h4">h4</span> |
 | `$h5-size`<br></br>`$h5-weight`<br></br>`$h5-line-height` | `1.5rem`<br></br>`$font-bold`<br></br>`1.25` | <span class="h5">h5</span> |

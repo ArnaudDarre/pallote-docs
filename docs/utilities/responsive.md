@@ -3,9 +3,9 @@
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-import { Card, CardContent, Display } from "pallote-react"
+import { Color, Display, Text } from "pallote-react"
 
-# Responsive
+# Display
 
 This utility allows to show or hide elements depending on certain conditions.
 
@@ -19,22 +19,22 @@ For the React package, use the `<Display />` component. This fully removes its c
 
 <div class="docs__block docs__block--portrait">
   <Display show="mobileSm">
-    <Card size="xs"><CardContent>Show on small mobile</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on small mobile</Text></Color>
   </Display>
   <Display show="mobile">
-    <Card size="xs"><CardContent>Show on mobile</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on mobile</Text></Color>
   </Display>
   <Display show="tablet">
-    <Card size="xs"><CardContent>Show on tablet</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on tablet</Text></Color>
   </Display>
   <Display show="laptop">
-    <Card size="xs"><CardContent>Show on laptop</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on laptop</Text></Color>
   </Display>
   <Display show="desktop">
-    <Card size="xs"><CardContent>Show on desktop</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on desktop</Text></Color>
   </Display>
   <Display show="touch">
-    <Card size="xs"><CardContent>Show on touch devices (like mobile or tablets)</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on touch devices</Text></Color>
   </Display>
 </div>
 
@@ -67,22 +67,22 @@ For the React package, use the `<Display />` component. This fully removes its c
 
 <div class="docs__block docs__block--portrait">
   <Display hide="mobileSm">
-    <Card size="xs"><CardContent>Show on small mobile</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on small mobile</Text></Color>
   </Display>
   <Display hide="mobile">
-    <Card size="xs"><CardContent>Show on mobile</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on mobile</Text></Color>
   </Display>
   <Display hide="tablet">
-    <Card size="xs"><CardContent>Show on tablet</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on tablet</Text></Color>
   </Display>
   <Display hide="laptop">
-    <Card size="xs"><CardContent>Show on laptop</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on laptop</Text></Color>
   </Display>
   <Display hide="desktop">
-    <Card size="xs"><CardContent>Show on desktop</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on desktop</Text></Color>
   </Display>
   <Display hide="touch">
-    <Card size="xs"><CardContent>Show on touch devices (like mobile or tablets)</CardContent></Card>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on touch devices</Text></Color>
   </Display>
 </div>
 
@@ -101,11 +101,11 @@ For the React package, use the `<Display />` component. This fully removes its c
   <TabItem value="css" label="CSS">
 
 ```html
-<div class="hide-desktop"><!-- content --></div>
-<div class="hide-laptop"><!-- content --></div>
-<div class="hide-tablet"><!-- content --></div>
-<div class="hide-mobile"><!-- content --></div>
 <div class="hide-mobileSm"><!-- content --></div>
+<div class="hide-mobile"><!-- content --></div>
+<div class="hide-tablet"><!-- content --></div>
+<div class="hide-laptop"><!-- content --></div>
+<div class="hide-desktop"><!-- content --></div>
 <div class="hide-touch"><!-- content --></div>
 ```
   </TabItem>
@@ -115,5 +115,5 @@ For the React package, use the `<Display />` component. This fully removes its c
 
 | Prop | Values | Default |
 | - | - | - |
-| show | `mobileSm` `mobile` `tablet` `laptop` `desktop` `touch` | `-` | 
-| hide | `mobileSm` `mobile` `tablet` `laptop` `desktop` `touch` | `-` |
+| show | `mobileSm` `mobile` `tablet` `laptop` `desktop` `touch` | | 
+| hide | `mobileSm` `mobile` `tablet` `laptop` `desktop` `touch` | |

@@ -5,9 +5,9 @@ h1 {
 }
 
 h2 { @extend %h3; }
-h3 { @extend %h4; }
-h4 { @extend %h5; }
-h5 { @extend %h6; }
+h3 { @extend %h5; }
+h4 { @extend %h6; }
+h5 { @extend %subtitle; }
 
 .docs-doc-id-utilities\/text .docs__block {
 

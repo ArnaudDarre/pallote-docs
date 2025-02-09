@@ -121,7 +121,6 @@ Change the button style.
 <div class="docs__block">
   <Button>Primary</Button>
   <Button color="secondary">Secondary</Button>
-  <Button color="highlight">Highlight</Button>
 </div>
 
 <Tabs groupId="package" queryString>
@@ -130,7 +129,6 @@ Change the button style.
 ```jsx
 <Button>Primary</Button>
 <Button color="secondary">Secondary</Button>
-<Button color="highlight">Highlight</Button>
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
@@ -138,7 +136,6 @@ Change the button style.
 ```html
 <button class="button">Primary</button>
 <button class="button button-secondary">Secondary</button>
-<button class="button button-highlight">Highlight</button>
 ```
   </TabItem>
 </Tabs>

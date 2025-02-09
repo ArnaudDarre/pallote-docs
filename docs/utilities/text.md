@@ -156,7 +156,6 @@ In order to use the correct semantic component, you need to combine it with the 
 ### Weight
 
 <div class="docs__block">
-  <Text weight="light">Light</Text>
   <Text weight="regular">Regular</Text>
   <Text weight="bold">Bold</Text>
 </div>
@@ -165,7 +164,6 @@ In order to use the correct semantic component, you need to combine it with the 
   <TabItem value="react" label="React">
 
 ```jsx
-<Text weight="light">Light</Text>
 <Text weight="regular">Regular</Text>
 <Text weight="bold">Bold</Text>
 ```
@@ -173,7 +171,6 @@ In order to use the correct semantic component, you need to combine it with the 
   <TabItem value="css" label="CSS">
 
 ```html
-<p class="text-light">Light</p>
 <p class="text-regular">Regular</p>
 <p class="text-bold">Bold</p>
 ```
@@ -216,6 +213,27 @@ In order to use the correct semantic component, you need to combine it with the 
   </TabItem>
 </Tabs>
 
+### Italic
+
+<div class="docs__block">
+  <Text italic>Italic</Text>
+</div>
+
+<Tabs groupId="package" queryString>
+  <TabItem value="react" label="React">
+
+```jsx
+<Text italic>Italic</Text>
+```
+  </TabItem>
+  <TabItem value="css" label="CSS">
+
+```html
+<p class="text-italic">Italic</p>
+```
+  </TabItem>
+</Tabs>
+
 ### Underline
 
 <div class="docs__block">
@@ -237,23 +255,23 @@ In order to use the correct semantic component, you need to combine it with the 
   </TabItem>
 </Tabs>
 
-### Italic
+### StrikeThrough
 
 <div class="docs__block">
-  <Text italic>Italic</Text>
+  <Text strikeThrough>StrikeThrough</Text>
 </div>
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
 
 ```jsx
-<Text italic>Italic</Text>
+<Text strikeThrough>StrikeThrough</Text>
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
 
 ```html
-<p class="text-italic">Italic</p>
+<p class="text-strikeThrough">StrikeThrough</p>
 ```
   </TabItem>
 </Tabs>
@@ -288,14 +306,13 @@ In order to use the correct semantic component, you need to combine it with the 
     <Text color="disabled">Disabled</Text>
   </div>
   <div class="docs_row">
-    <div class="fill--white"><Text color="contrast">Contrast</Text></div>
-    <div class="fill--white"><Text color="contrastAlt">Contrast alt</Text></div>
-    <div class="fill--white"><Text color="contrastDisabled">Contrast disabled</Text></div>
+    <div class="fill-contrast"><Text color="contrast">Contrast</Text></div>
+    <div class="fill-contrast"><Text color="contrastAlt">Contrast alt</Text></div>
+    <div class="fill-contrast"><Text color="contrastDisabled">Contrast disabled</Text></div>
   </div>
   <div class="docs_row">
     <Text color="primary">Primary</Text>
     <Text color="secondary">Secondary</Text>
-    <Text color="highlight">Highlight</Text>
   </div>
   <div class="docs_row">
     <Text color="success">Success</Text>
@@ -319,7 +336,6 @@ In order to use the correct semantic component, you need to combine it with the 
 
 <Text color="primary">Primary</Text>
 <Text color="secondary">Secondary</Text>
-<Text color="highlight">Highlight</Text>
 
 <Text color="success">Success</Text>
 <Text color="info">Info</Text>
@@ -340,7 +356,6 @@ In order to use the correct semantic component, you need to combine it with the 
 
 <p class="text-primary">Primary</p>
 <p class="text-secondary">Secondary</p>
-<p class="text-highlight">Highlight</p>
 
 <p class="text-success">Success</p>
 <p class="text-info">Info</p>
@@ -357,12 +372,12 @@ In order to use the correct semantic component, you need to combine it with the 
 | variant | `h1` `h2` `h3` `h4` `h5` `h6` <br></br> `subtitle` `body` `caption` `overline` | `body` |
 | component | `h1` `h2` `h3` `h4` `h5` `h6`<br></br>  `p` `span` `label` `legend` | `p` |
 | align | `left` `center` `right` `justify` | `left` |
-| weight | `light` `regular` `bold` | `regular` |
-| transform | `none` `capitalize` `uppercase` `lowercase` `initial` `inherit` | `-` |
+| weight | `regular` `bold` | `regular` |
+| transform | `none` `capitalize` `uppercase` `lowercase` `initial` `inherit` | |
 | underline | `bool` | `false` |
 | italic | `bool` | `false` |
 | code | `bool` | `false` |
-| color | `default` `alt` `disabled` <br></br> `contrast` `contrastAlt` `contrastDisabled` <br></br> `primary` `secondary` `highlight` <br></br> `success` `info` `warning` `error` | `default` |
+| color | `default` `alt` `disabled` <br></br> `contrast` `contrastAlt` `contrastDisabled` <br></br> `primary` `secondary` <br></br> `success` `info` `warning` `error` | `default` |
 
 ## Examples
 

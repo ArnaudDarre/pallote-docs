@@ -35,7 +35,7 @@ The framework has a set of built-in variables that create the design look and fe
 ```css
 $primary: #007A1E;
 
-@import '~/node_modules/pallote-react/dist/styles/index.scss';
+@import '~/node_modules/pallote-css/dist/pallote.scss';
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
@@ -60,7 +60,7 @@ To change a component style, see the documentation for each component and add cr
   <TabItem value="react" label="React">
 
 ```css
-@import '~/node_modules/pallote-react/dist/styles/index.scss';
+@import '~/node_modules/pallote-css/dist/pallote.scss';
 
 .button {
   text-decoration: underline;

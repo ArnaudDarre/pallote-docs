@@ -37,7 +37,6 @@ Change the Tag style.
 <div class="docs__block">
   <Tag color="primary">Primary</Tag>
   <Tag color="secondary">Secondary</Tag>
-  <Tag color="highlight">Highlight</Tag>
   <Tag color="grey">Grey</Tag>
   <Tag color="success">Success</Tag>
   <Tag color="info">Info</Tag>
@@ -51,7 +50,6 @@ Change the Tag style.
 ```jsx
 <Tag color="primary">Primary</Tag>
 <Tag color="secondary">Secondary</Tag>
-<Tag color="highlight">Highlight</Tag>
 <Tag color="grey">Grey</Tag>
 <Tag color="success">Success</Tag>
 <Tag color="info">Info</Tag>
@@ -64,7 +62,6 @@ Change the Tag style.
 ```html
 <p class="tag">Primary</p>
 <p class="tag tag-secondary">Secondary</p>
-<p class="tag tag-highlight">Highlight</p>
 <p class="tag tag-grey">Grey</p>
 <p class="tag tag-success">Success</p>
 <p class="tag tag-info">Info</p>

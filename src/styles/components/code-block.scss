@@ -1,7 +1,7 @@
 // simple code block
 
 code {
-  @extend %caption;
+  @extend %overline;
   padding-right: .4em;
   padding-left: .4em;
   border: $border;
@@ -15,7 +15,6 @@ code {
 }
 
 // markdown highlighter
-
 
 .theme-code-block {
   background-color: $grey-90 !important;
@@ -42,7 +41,7 @@ code {
       border-top-right-radius: 0;
     }
   }
-  
+
   .prism-code {
     background-color: transparent !important;
   }
