@@ -9,16 +9,6 @@
 
 .tabs-container {
 
-  .margin-top--md {
-    margin-top: 0 !important;
-  }
-
-  .theme-code-block {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-top: 0;
-  }
-
   .tabs {
     border-bottom: $border;
     overflow: visible;
@@ -53,11 +43,7 @@
 
 .tabItem_Ymn6 {
 
-  p {
-    padding: 1rem;
-  }
-
   p + .codeBlockContainer_Ckt0 {
-    margin-top: .5rem;
+    margin-top: 1rem;
   }
 }

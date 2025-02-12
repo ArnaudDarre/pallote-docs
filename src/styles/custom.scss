@@ -33,11 +33,18 @@ a {
   }
 }
 
-.markdown a {
-  text-decoration: underline;
+.markdown {
 
-  &:hover {
-    text-decoration-thickness: 3px;
+  p, ul {
+    max-width: 600px;
+  }
+
+  a {
+    text-decoration: underline;
+    
+    &:hover {
+      text-decoration-thickness: 3px;
+    }
   }
 }
 

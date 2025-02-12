@@ -4,10 +4,9 @@
 }
 
 .table-of-contents {
-  border-left: 0;
+  border: 0;
   padding: .5rem;
-  border: $border;
-  border-radius: $border-radius-md;
+  border-left: $border;
 
   li {
     margin: 0;

@@ -63,10 +63,11 @@ code {
     right: 0.625rem;
 
     button {
-      background-color: $contrast;
+      background-color: $grey-90;
+      border: $border-contrast;
     }
 
-    .copyButtonIcon_y97N, .wordWrapButtonIcon_Bwma { color: $text; }
+    .copyButtonIcon_y97N, .wordWrapButtonIcon_Bwma { color: $text-contrast; }
     .copyButtonSuccessIcon_LjdS { color: $success; }
   }
 
