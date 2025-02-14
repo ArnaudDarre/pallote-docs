@@ -7,7 +7,7 @@ import { Grid, Input } from "pallote-react"
 
 # Input
 
-Component for every call-to-action.
+Allow users to enter text that will fit on a single line. This is the most basic form field.
 
 <div class="docs__block">
   <Input id="input" label="Input" />
@@ -31,6 +31,12 @@ Component for every call-to-action.
 ```
   </TabItem>
 </Tabs>
+
+## Usage
+
+To follow user-centred design and GDPR best practices, we should only ask users for information we need. In that respect, all form fields of the Pallote component library are by default required.
+
+For the CSS library, you do not need to add the `required` property to the form fields, it is added automatically with the javascript import.
 
 ## Props
 
@@ -178,33 +184,23 @@ Add this class to signal users the field is disabled.
 ### Optional
 
 <div class="docs__block">
-  <Input id="required" label="Required" required />
+  <Input id="optional" label="Optional" optional />
 </div>
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
 
 ```jsx
-<Input id="required" label="Required" required />
+<Input id="optional" label="Optional" optional />
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
 
 ```html
-<div class="input input-required">
-  <label for="required" class="input_label">Required</label>
-  <input type="text" id="required" class="input_control" required>
+<div class="input input-optional">
+  <label for="optional" class="input_label">Optional</label>
+  <input type="text" id="optional" class="input_control">
 </div>
 ```
   </TabItem>
 </Tabs>
-
-## Props details
-
-| Name | Type | Values | Default |
-| - | - | - | - |
-| `type` | `oneOff` | `date` `email` `number` `tel` `text` `time` | `text` |
-| `isFocused` | `boolean` | | `false` |
-| `error` | `boolean` | | `false` |
-| `disabled` | `boolean` | | `false` |
-| `optional` | `boolean` | | `false` |

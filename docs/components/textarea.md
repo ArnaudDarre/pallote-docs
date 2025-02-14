@@ -7,12 +7,11 @@ import { Textarea } from "pallote-react"
 
 # Textarea
 
-Styling for a textarea field. This component uses the same structure as the [Input](/docs/components/input) component.
+Allow users to enter text on multiple lines. This component uses the base structure of the [Input](/docs/components/input) component.
 
 <div class="docs__block">
   <Textarea id="textarea" label="Textarea" />
 </div>
-
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
@@ -31,6 +30,12 @@ Styling for a textarea field. This component uses the same structure as the [Inp
 ```
   </TabItem>
 </Tabs>
+
+## Usage
+
+To follow user-centred design and GDPR best practices, we should only ask users for information we need. In that respect, all form fields of the Pallote component library are by default required.
+
+For the CSS library, you do not need to add the `required` property to the form fields, it is added automatically with the javascript import.
 
 ## Props
 
@@ -115,22 +120,22 @@ Add this class to signal users the field is disabled.
 ### Optional
 
 <div class="docs__block">
-  <Textarea id="required" label="Required" required />
+  <Textarea id="optional" label="Optional" optional />
 </div>
 
 <Tabs groupId="package" queryString>
   <TabItem value="react" label="React">
 
 ```jsx
-<Textarea id="required" label="Required" required />
+<Textarea id="optional" label="Optional" optional />
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
 
 ```html
-<div class="input input-required textarea">
-  <label for="required" class="input_label">Required</label>
-  <textarea id="required" rows="4" class="input__control" required></textarea>
+<div class="input input-optional textarea">
+  <label for="optional" class="input_label">Optional</label>
+  <textarea id="optional" rows="4" class="input__control"></textarea>
 </div>
 ```
   </TabItem>

@@ -67,22 +67,22 @@ For the React package, use the `<Display />` component. This fully removes its c
 
 <div class="docs__block docs__block--portrait">
   <Display hide="mobileSm">
-    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on small mobile</Text></Color>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Hide on small mobile</Text></Color>
   </Display>
   <Display hide="mobile">
-    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on mobile</Text></Color>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Hide on mobile</Text></Color>
   </Display>
   <Display hide="tablet">
-    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on tablet</Text></Color>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Hide on tablet</Text></Color>
   </Display>
   <Display hide="laptop">
-    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on laptop</Text></Color>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Hide on laptop</Text></Color>
   </Display>
   <Display hide="desktop">
-    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on desktop</Text></Color>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Hide on desktop</Text></Color>
   </Display>
   <Display hide="touch">
-    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on touch devices</Text></Color>
+    <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Hide on touch devices</Text></Color>
   </Display>
 </div>
 

@@ -7,7 +7,7 @@ import { Checkbox } from "pallote-react"
 
 # Checkbox
 
-Component for every call-to-action.
+This component is mainly used as a child of the [Checkboxes](/docs/components/checkboxes.md) component.
 
 <div class="docs__block">
   <Checkbox id="checkbox" value="checkbox" label="Checkbox" />

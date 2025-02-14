@@ -7,7 +7,7 @@ import { Checkbox, Checkboxes } from "pallote-react"
 
 # Checkboxes
 
-Component for every call-to-action.
+Allow users to select multiple options from a list. This component uses the base structure of the [Input](/docs/components/input) component.
 
 <div class="docs__block">
   <Checkboxes label="Legend">
@@ -45,6 +45,12 @@ Component for every call-to-action.
 ```
   </TabItem>
 </Tabs>
+
+## Usage
+
+To follow user-centred design and GDPR best practices, we should only ask users for information we need. In that respect, all form fields of the Pallote component library are by default required.
+
+For the CSS library, you do not need to add the `required` property to the form fields, it is added automatically with the javascript import.
 
 ## Props
 
@@ -188,12 +194,12 @@ Component for every call-to-action.
   </TabItem>
 </Tabs>
 
-### Required
+### Optional
 
 <div class="docs__block">
-  <Checkboxes label="Required" required>
-    <Checkbox id="required_1" value="1" label="Option 1" />
-    <Checkbox id="required_2" value="2" label="Option 2" />
+  <Checkboxes label="Optional" optional>
+    <Checkbox id="optional_1" value="1" label="Option 1" />
+    <Checkbox id="optional_2" value="2" label="Option 2" />
   </Checkboxes>
 </div>
 
@@ -201,25 +207,25 @@ Component for every call-to-action.
   <TabItem value="react" label="React">
 
 ```jsx
-<Checkboxes label="Required" required>
-  <Checkbox id="required_1" value="1" label="Option 1" />
-  <Checkbox id="required_2" value="2" label="Option 2" />
+<Checkboxes label="Optional" optional>
+  <Checkbox id="optional_1" value="1" label="Option 1" />
+  <Checkbox id="optional_2" value="2" label="Option 2" />
 </Checkboxes>
 ```
   </TabItem>
   <TabItem value="css" label="CSS">
 
 ```html
-<div class="input input-required">
-  <legend class="input_label">Required</legend>
+<div class="input input-optional">
+  <legend class="input_label">Optional</legend>
   <div class="input_control checkboxes">
     <div class="checkbox">
-      <input type="checkbox" id="required_1" value="required_1" class="checkbox_control" />
-      <label for="required_1" class="checkbox_label">Option 1</label>
+      <input type="checkbox" id="optional_1" value="optional_1" class="checkbox_control" />
+      <label for="optional_1" class="checkbox_label">Option 1</label>
     </div>
     <div class="checkbox">
-      <input type="checkbox" id="required_2" value="required_2" class="checkbox_control" />
-      <label for="required_2" class="checkbox_label">Option 2</label>
+      <input type="checkbox" id="optional_2" value="optional_2" class="checkbox_control" />
+      <label for="optional_2" class="checkbox_label">Option 2</label>
     </div>
   </div>
 </div>

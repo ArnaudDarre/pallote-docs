@@ -40,10 +40,16 @@ npm install pallote-css
 
 ### Use a CDN (for Pallote CSS)
 
-Alternatively, you can install Pallote CSS via a CDN. Simply copy/paste this code in between the head tag of your website. This is the latest version of Pallote CSS.
+Alternatively, you can install Pallote CSS via a CDN. Simply copy and paste this code in between the head tag of your website. This is the latest version of Pallote CSS.
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdeliver.net/npm/pallote-css@1.0.0/dist/pallote.min.css">
+```
+
+You also need to import the javascript for some components to work.
+
+```html
+<script src="https://cdn.jsdeliver.net/npm/pallote-css@1.0.0/dist/pallote.min.js"></script>
 ```
 
 :::warning Custom variables with CDN

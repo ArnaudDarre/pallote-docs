@@ -7,7 +7,7 @@ import { Radio } from "pallote-react"
 
 # Radio
 
-Component for every call-to-action.
+This component is mainly used as a child of the [Radio buttons](/docs/components/radio-buttons.md) component.
 
 <div class="docs__block">
   <Radio name="radio" id="radio_1" value="1" label="Radio" />

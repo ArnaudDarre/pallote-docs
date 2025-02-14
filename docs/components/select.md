@@ -7,7 +7,7 @@ import { Select } from "pallote-react"
 
 # Select
 
-Styling for a textarea field. This component uses the same structure as the [Input](/docs/components/input) component.
+Allow users to select an option from a long list. This component uses the base structure of the [Input](/docs/components/input) component.
 
 <div class="docs__block">
   <Select id="select" label="Select">
@@ -43,6 +43,12 @@ Styling for a textarea field. This component uses the same structure as the [Inp
 ```
   </TabItem>
 </Tabs>
+
+## Usage
+
+To follow user-centred design and GDPR best practices, we should only ask users for information we need. In that respect, all form fields of the Pallote component library are by default required.
+
+For the CSS library, you do not need to add the `required` property to the form fields, it is added automatically with the javascript import.
 
 ## Props
 
