@@ -25,7 +25,7 @@ code {
     box-shadow: none;
   }
   
-  .docs__block & {
+  .docs_block & {
     margin: 1rem -1rem 0 -1rem;
     border-top: $border;
     border-top-left-radius: 0;
@@ -71,6 +71,7 @@ code {
     .copyButtonSuccessIcon_LjdS { color: $success; }
   }
 
+  .plain-text { color: $text-contrast; }
   // .class-name,.tag:not(.attr-value):not(.attr-name):not(.punctuation) { color: $primary !important; }
   // .punctuation { color: $grey-20 !important; }
   // .attr-name { color: $primary-light !important; }

@@ -7,9 +7,9 @@ import { Tag } from "pallote-react"
 
 # Tag
 
-Component for every call-to-action.
+Small label representing date like status or property.
 
-<div class="docs__block">
+<div class="docs_block">
   <Tag>Tag</Tag>
 </div>
 
@@ -34,7 +34,7 @@ Component for every call-to-action.
 
 Change the Tag style.
 
-<div class="docs__block">
+<div class="docs_block">
   <Tag color="primary">Primary</Tag>
   <Tag color="secondary">Secondary</Tag>
   <Tag color="grey">Grey</Tag>
@@ -73,7 +73,7 @@ Change the Tag style.
 
 ### Size
 
-<div class="docs__block">
+<div class="docs_block">
   <Tag dense>Dense</Tag>
 </div>
 

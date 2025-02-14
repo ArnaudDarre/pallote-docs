@@ -23,7 +23,7 @@ Add the following classes to an element to override the background color or bord
 
 #### Common
 
-<div class="docs__block">
+<div class="docs_block">
   <div class="docs_row">
     <Color fill="main" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">main</Text></Color>
     <Color fill="contrast" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">contrast</Text></Color>
@@ -59,7 +59,7 @@ Add the following classes to an element to override the background color or bord
 
 #### Grey
 
-<div class="docs__block">
+<div class="docs_block">
   <div class="docs_row">
     <Color fill="grey90" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">grey 90</Text></Color>
     <Color fill="grey80" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">grey 80</Text></Color>
@@ -143,7 +143,7 @@ Add the following classes to an element to override the background color or bord
 
 #### Background
 
-<div class="docs__block">
+<div class="docs_block">
   <div class="docs_row">
     <Color fill="default" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">default</Text></Color>
     <Color fill="paper" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">paper</Text></Color>
@@ -179,7 +179,7 @@ Add the following classes to an element to override the background color or bord
 
 #### Brand
 
-<div class="docs__block">
+<div class="docs_block">
   <div class="docs_row">
     <Color fill="primary" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">primary</Text></Color>
     <Color fill="secondary" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">secondary</Text></Color>
@@ -215,7 +215,7 @@ Add the following classes to an element to override the background color or bord
 
 #### Status
 
-<div class="docs__block">
+<div class="docs_block">
   <div class="docs_row">
     <Color fill="success" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">success</Text></Color>
     <Color fill="info" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">info</Text></Color>
@@ -263,7 +263,7 @@ Add the following classes to an element to override the background color or bord
 
 #### Misc
 
-<div class="docs__block">
+<div class="docs_block">
   <div class="docs_row">
     <Color fill="border" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">success</Text></Color>
   </div>
@@ -295,7 +295,7 @@ Add the following classes to an element to override the background color or bord
 
 For the react `Color` component, you can enter an hex value to add a custom fill or stroke color to an element.
 
-<div class="docs__block">
+<div class="docs_block">
   <div class="docs_row">
     <Color customFill="#C6882C" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">custom fill</Text></Color>
     <Color customStroke="#007BFF" className={'mt-0 ph-1 pv-½ br-sm w-10'}><Text variant="caption">custom stroke</Text></Color>

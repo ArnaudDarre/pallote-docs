@@ -9,7 +9,7 @@ import { Checkbox } from "pallote-react"
 
 This component is mainly used as a child of the [Checkboxes](/docs/components/checkboxes.md) component.
 
-<div class="docs__block">
+<div class="docs_block">
   <Checkbox id="checkbox" value="checkbox" label="Checkbox" />
 </div>
 
@@ -35,7 +35,7 @@ This component is mainly used as a child of the [Checkboxes](/docs/components/ch
 
 ### Checked
 
-<div class="docs__block">
+<div class="docs_block">
   <Checkbox id="checked" value="Checked" label="Checked" checked />
 </div>
 
@@ -59,7 +59,7 @@ This component is mainly used as a child of the [Checkboxes](/docs/components/ch
 
 ### Disabled
 
-<div class="docs__block">
+<div class="docs_block">
   <Checkbox id="disabled" value="Disabled" label="Disabled" disabled />
 </div>
 

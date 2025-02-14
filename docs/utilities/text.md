@@ -13,7 +13,7 @@ Use these utility props and classes to override the text style of an element.
 
 ### Variant
 
-<div class="docs__block docs__block--portrait">
+<div class="docs_block docs_block-portrait">
   <div class="docs_row grid--ai-baseline">
     <Text variant="h1">Heading 1</Text>
     <Text variant="h2">Heading 2</Text>
@@ -71,7 +71,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ### Component
 
-<div class="docs__block docs__block--portrait">
+<div class="docs_block docs_block-portrait">
   <div class="docs_row grid--ai-baseline">
     <Text component="h1" variant="body">h1</Text>
     <Text component="h2" variant="body">h2</Text>
@@ -125,7 +125,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ### Align
 
-<div class="docs__block docs__block--portrait">
+<div class="docs_block docs_block-portrait">
   <Text align="left" className="w-100">Align left and rub whiskers on bare skin act innocent. Catto munch salmono while happily ignoring when being called terrorize the hundred-and-twenty-pound rottweiler and steal his bed, not sorry eat from dog's food.</Text>
   <Text align="center" className="w-100">Align center and stare at ceiling cough hairball on conveniently placed pants and break lamps and curl up into a ball, so get scared by sudden appearance of cucumber hack step on your keyboard while you're gaming and then turn in a circle.</Text>
   <Text align="right" className="w-100">Align right lick master's hand at first then bite because im moody chew the plant scratch my tummy actually i hate you now fight me. Sun bathe steal the warm chair right after you get up.</Text>
@@ -155,7 +155,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ### Weight
 
-<div class="docs__block">
+<div class="docs_block">
   <Text weight="regular">Regular</Text>
   <Text weight="bold">Bold</Text>
 </div>
@@ -179,7 +179,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ### Transform
 
-<div class="docs__block">
+<div class="docs_block">
   <Text transform="none">None</Text>
   <Text transform="capitalize">Capitalize</Text>
   <Text transform="uppercase">Uppercase</Text>
@@ -215,7 +215,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ### Italic
 
-<div class="docs__block">
+<div class="docs_block">
   <Text italic>Italic</Text>
 </div>
 
@@ -236,7 +236,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ### Underline
 
-<div class="docs__block">
+<div class="docs_block">
   <Text underline>Underline</Text>
 </div>
 
@@ -257,7 +257,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ### StrikeThrough
 
-<div class="docs__block">
+<div class="docs_block">
   <Text strikeThrough>StrikeThrough</Text>
 </div>
 
@@ -278,7 +278,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ### Code
 
-<div class="docs__block">
+<div class="docs_block">
   <Text code>Code</Text>
 </div>
 
@@ -299,7 +299,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ### Color
 
-<div class="docs__block docs__block--portrait">
+<div class="docs_block docs_block-portrait">
   <div class="docs_row">
     <Text color="default">Default</Text>
     <Text color="alt">Alt</Text>
@@ -381,7 +381,7 @@ In order to use the correct semantic component, you need to combine it with the 
 
 ## Examples
 
-<div class="docs__block docs__block--portrait">
+<div class="docs_block docs_block-portrait">
   <Text variant="h4" component="h3" underline>Be mindful of text sizes</Text>
   <Text variant="caption" italic color="success">And colour contrast</Text>
   <Text variant="body" component="span" weight="bold">When writing content</Text>

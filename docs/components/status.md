@@ -7,9 +7,9 @@ import { Status } from "pallote-react"
 
 # Status
 
-Indicate the status of an object or entity of your product.
+Indicate the status of an object.
 
-<div class="docs__block">
+<div class="docs_block">
   <Status>Status</Status>
 </div>
 
@@ -32,7 +32,7 @@ Indicate the status of an object or entity of your product.
 
 ### Color
 
-<div class="docs__block">
+<div class="docs_block">
   <Status>Inactive</Status>
   <Status color="success">Success</Status>
   <Status color="info">Info</Status>
@@ -65,7 +65,7 @@ Indicate the status of an object or entity of your product.
 
 ### Dense
 
-<div class="docs__block">
+<div class="docs_block">
   <Status dense>Dense</Status>
 </div>
 

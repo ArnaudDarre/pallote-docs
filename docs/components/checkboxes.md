@@ -9,7 +9,7 @@ import { Checkbox, Checkboxes } from "pallote-react"
 
 Allow users to select multiple options from a list. This component uses the base structure of the [Input](/docs/components/input) component.
 
-<div class="docs__block">
+<div class="docs_block">
   <Checkboxes label="Legend">
     <Checkbox id="checkbox_1" value="1" label="Option 1" />
     <Checkbox id="checkbox_2" value="2" label="Option 2" />
@@ -56,7 +56,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 ### Direction
 
-<div class="docs__block">
+<div class="docs_block">
   <Checkboxes label="Landscape">
     <Checkbox id="landscape_1" value="1" label="Option 1" />
     <Checkbox id="landscape_2" value="2" label="Option 2" />
@@ -118,7 +118,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 ### Error
 
-<div class="docs__block">
+<div class="docs_block">
   <Checkboxes label="Error" error>
     <Checkbox id="error_1" value="1" label="Option 1" />
     <Checkbox id="error_2" value="2" label="Option 2" />
@@ -157,7 +157,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 ### Disabled
 
-<div class="docs__block">
+<div class="docs_block">
   <Checkboxes label="Disabled" disabled>
     <Checkbox id="disabled_1" value="1" label="Option 1" />
     <Checkbox id="disabled_2" value="2" label="Option 2" />
@@ -196,7 +196,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 ### Optional
 
-<div class="docs__block">
+<div class="docs_block">
   <Checkboxes label="Optional" optional>
     <Checkbox id="optional_1" value="1" label="Option 1" />
     <Checkbox id="optional_2" value="2" label="Option 2" />

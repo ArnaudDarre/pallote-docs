@@ -39,7 +39,7 @@ a {
     max-width: 600px;
   }
 
-  a {
+  a:not(.button) {
     text-decoration: underline;
     
     &:hover {

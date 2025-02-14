@@ -9,7 +9,7 @@ import { Select } from "pallote-react"
 
 Allow users to select an option from a long list. This component uses the base structure of the [Input](/docs/components/input) component.
 
-<div class="docs__block">
+<div class="docs_block">
   <Select id="select" label="Select">
     <option value=""></option>
     <option value="1">Option 1</option>
@@ -33,8 +33,8 @@ Allow users to select an option from a long list. This component uses the base s
 
 ```html
 <div class="input select">
-  <label for="select" class="input__label">Select</label>
-  <select name="select" id="select" class="input__control">
+  <label for="select" class="input_label">Select</label>
+  <select name="select" id="select" class="input_control">
     <option value=""></option>
     <option value="Option 1">Option 1</option>
     <option value="Option 2">Option 2</option>
@@ -56,7 +56,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 Focus on a input on page load.
 
-<div class="docs__block">
+<div class="docs_block">
   <Select id="focused" label="IsFocused" isFocused>
     <option value=""></option>
     <option value="1">Option 1</option>
@@ -79,8 +79,8 @@ Focus on a input on page load.
 
 ```html
 <div class="input input-focused select">
-  <label for="focused" class="input__label">Focused</label>
-  <select name="focused" id="focused" class="input__control">
+  <label for="focused" class="input_label">Focused</label>
+  <select name="focused" id="focused" class="input_control">
     <option value=""></option>
     <option value="Option 1">Option 1</option>
     <option value="Option 2">Option 2</option>
@@ -94,7 +94,7 @@ Focus on a input on page load.
 
 Notify users that the field has an error.
 
-<div class="docs__block">
+<div class="docs_block">
   <Select id="error" label="Error" error>
     <option value=""></option>
     <option value="1">Option 1</option>
@@ -117,8 +117,8 @@ Notify users that the field has an error.
 
 ```html
 <div class="input input-error select">
-  <label for="error" class="input__label">Error</label>
-  <select name="error" id="error" class="input__control">
+  <label for="error" class="input_label">Error</label>
+  <select name="error" id="error" class="input_control">
     <option value=""></option>
     <option value="Option 1">Option 1</option>
     <option value="Option 2">Option 2</option>
@@ -132,7 +132,7 @@ Notify users that the field has an error.
 
 Add this class to signal users the field is disabled.
 
-<div class="docs__block">
+<div class="docs_block">
   <Select id="disabled" label="Disabled" disabled>
     <option value=""></option>
     <option value="1">Option 1</option>
@@ -155,8 +155,8 @@ Add this class to signal users the field is disabled.
 
 ```html
 <div class="input input-disabled select">
-  <label for="disabled" class="input__label">Disabled</label>
-  <select name="disabled" id="disabled" class="input__control">
+  <label for="disabled" class="input_label">Disabled</label>
+  <select name="disabled" id="disabled" class="input_control">
     <option value=""></option>
     <option value="Option 1">Option 1</option>
     <option value="Option 2">Option 2</option>
@@ -168,7 +168,7 @@ Add this class to signal users the field is disabled.
 
 ### Optional
 
-<div class="docs__block">
+<div class="docs_block">
   <Select id="optional" label="Optional" optional>
     <option value=""></option>
     <option value="1">Option 1</option>
@@ -191,8 +191,8 @@ Add this class to signal users the field is disabled.
 
 ```html
 <div class="input input-optional select">
-  <label for="optional" class="input__label">Optional</label>
-  <select name="optional" id="optional" class="input__control">
+  <label for="optional" class="input_label">Optional</label>
+  <select name="optional" id="optional" class="input_control">
     <option value=""></option>
     <option value="Option 1">Option 1</option>
     <option value="Option 2">Option 2</option>

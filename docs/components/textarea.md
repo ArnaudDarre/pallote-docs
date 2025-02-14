@@ -9,7 +9,7 @@ import { Textarea } from "pallote-react"
 
 Allow users to enter text on multiple lines. This component uses the base structure of the [Input](/docs/components/input) component.
 
-<div class="docs__block">
+<div class="docs_block">
   <Textarea id="textarea" label="Textarea" />
 </div>
 
@@ -25,7 +25,7 @@ Allow users to enter text on multiple lines. This component uses the base struct
 ```html
 <div class="input textarea">
   <label for="textarea" class="input_label">Textarea</label>
-  <textarea id="textarea" rows="4" class="input__control"></textarea>
+  <textarea id="textarea" rows="4" class="input_control"></textarea>
 </div>
 ```
   </TabItem>
@@ -43,7 +43,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 Focus on a input on page load.
 
-<div class="docs__block">
+<div class="docs_block">
   <Textarea id="focused" label="IsFocused" isFocused />
 </div>
 
@@ -59,7 +59,7 @@ Focus on a input on page load.
 ```html
 <div class="input input-focused textarea">
   <label for="focused" class="input_label">Focused</label>
-  <textarea id="focused" rows="4" class="input__control"></textarea>
+  <textarea id="focused" rows="4" class="input_control"></textarea>
 </div>
 ```
   </TabItem>
@@ -69,7 +69,7 @@ Focus on a input on page load.
 
 Notify users that the field has an error.
 
-<div class="docs__block">
+<div class="docs_block">
   <Textarea id="error" label="Error" error />
 </div>
 
@@ -85,7 +85,7 @@ Notify users that the field has an error.
 ```html
 <div class="input input-error textarea">
   <label for="error" class="input_label">Error</label>
-  <textarea id="error" rows="4" class="input__control"></textarea>
+  <textarea id="error" rows="4" class="input_control"></textarea>
 </div>
 ```
   </TabItem>
@@ -95,7 +95,7 @@ Notify users that the field has an error.
 
 Add this class to signal users the field is disabled.
 
-<div class="docs__block">
+<div class="docs_block">
   <Textarea id="disabled" label="Disabled" disabled />
 </div>
 
@@ -111,7 +111,7 @@ Add this class to signal users the field is disabled.
 ```html
 <div class="input input-disabled textarea">
   <label for="disabled" class="input_label">Disabled</label>
-  <textarea id="disabled" rows="4" class="input__control"></textarea>
+  <textarea id="disabled" rows="4" class="input_control"></textarea>
 </div>
 ```
   </TabItem>
@@ -119,7 +119,7 @@ Add this class to signal users the field is disabled.
 
 ### Optional
 
-<div class="docs__block">
+<div class="docs_block">
   <Textarea id="optional" label="Optional" optional />
 </div>
 
@@ -135,7 +135,7 @@ Add this class to signal users the field is disabled.
 ```html
 <div class="input input-optional textarea">
   <label for="optional" class="input_label">Optional</label>
-  <textarea id="optional" rows="4" class="input__control"></textarea>
+  <textarea id="optional" rows="4" class="input_control"></textarea>
 </div>
 ```
   </TabItem>

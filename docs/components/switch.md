@@ -7,9 +7,9 @@ import { Switch } from "pallote-react"
 
 # Switch
 
-Component for every call-to-action.
+Allow user to toggle between two states.
 
-<div class="docs__block">
+<div class="docs_block">
   <Switch id="switch" label="Switch" />
 </div>
 
@@ -24,8 +24,8 @@ Component for every call-to-action.
 
 ```html
 <div class="switch">
-  <input class="switch__input" type="checkbox" name="switch" id="switch" aria-label="Switch">
-  <span class="switch__toggle"></span>
+  <input class="switch_input" type="checkbox" name="switch" id="switch" aria-label="Switch">
+  <span class="switch_toggle"></span>
 </div>
 ```
   </TabItem>
@@ -35,7 +35,7 @@ Component for every call-to-action.
 
 ### Start label
 
-<div class="docs__block">
+<div class="docs_block">
   <Switch startLabel="Start label" id="startLabel" label="Switch with a start label"></Switch>
 </div>
 
@@ -50,9 +50,9 @@ Component for every call-to-action.
 
 ```html
 <div class="switch">
-  <p class="text body switch__label">Start label</p>
-  <input class="switch__input" type="checkbox" name="startLabel" id="startLabel" aria-label="Switch with a start label">
-  <span class="switch__toggle"></span>
+  <p class="text body switch_label">Start label</p>
+  <input class="switch_input" type="checkbox" name="startLabel" id="startLabel" aria-label="Switch with a start label">
+  <span class="switch_toggle"></span>
 </div>
 ```
   </TabItem>
@@ -64,7 +64,7 @@ You can combine the `startLabel` and `endLabel` props.
 
 ### End label
 
-<div class="docs__block">
+<div class="docs_block">
   <Switch endLabel="End label" id="endLabel" label="Switch with an end label" />
 </div>
 
@@ -79,9 +79,9 @@ You can combine the `startLabel` and `endLabel` props.
 
 ```html
 <div class="switch">
-  <input class="switch__input" type="checkbox" name="endLabel" id="endLabel" aria-label="Switch with an end label">
-  <span class="switch__toggle"></span>
-  <p class="text body switch__label">End label</p>
+  <input class="switch_input" type="checkbox" name="endLabel" id="endLabel" aria-label="Switch with an end label">
+  <span class="switch_toggle"></span>
+  <p class="text body switch_label">End label</p>
 </div>
 ```
   </TabItem>
@@ -89,7 +89,7 @@ You can combine the `startLabel` and `endLabel` props.
 
 ### Checked
 
-<div class="docs__block">
+<div class="docs_block">
   <Switch id="checked" checked label="Switch checked by default" />
 </div>
 
@@ -104,8 +104,8 @@ You can combine the `startLabel` and `endLabel` props.
 
 ```html
 <div class="switch">
-  <input class="switch__input" type="checkbox" name="checked" id="checked" checked aria-label="Switch checked by default">
-  <span class="switch__toggle"></span>
+  <input class="switch_input" type="checkbox" name="checked" id="checked" checked aria-label="Switch checked by default">
+  <span class="switch_toggle"></span>
 </div>
 ```
   </TabItem>
@@ -113,7 +113,7 @@ You can combine the `startLabel` and `endLabel` props.
 
 ### Disabled
 
-<div class="docs__block">
+<div class="docs_block">
   <Switch id="disabled" disabled label="Disabled switch" />
 </div>
 
@@ -128,8 +128,8 @@ You can combine the `startLabel` and `endLabel` props.
 
 ```html
 <div class="switch">
-  <input class="switch__input" type="checkbox" name="disabled" id="disabled" disabled aria-label="Disabled switch">
-  <span class="switch__toggle"></span>
+  <input class="switch_input" type="checkbox" name="disabled" id="disabled" disabled aria-label="Disabled switch">
+  <span class="switch_toggle"></span>
 </div>
 ```
   </TabItem>

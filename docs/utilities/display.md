@@ -17,7 +17,7 @@ For the React package, use the `<Display />` component. This fully removes its c
 
 ### Show
 
-<div class="docs__block docs__block--portrait">
+<div class="docs_block docs_block-portrait">
   <Display show="mobileSm">
     <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Show on small mobile</Text></Color>
   </Display>
@@ -65,7 +65,7 @@ For the React package, use the `<Display />` component. This fully removes its c
 
 ### Hide
 
-<div class="docs__block docs__block--portrait">
+<div class="docs_block docs_block-portrait">
   <Display hide="mobileSm">
     <Color fill="default" stroke="border" className={'ph-1 pv-½ br-sm'}><Text variant="caption">Hide on small mobile</Text></Color>
   </Display>

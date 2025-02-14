@@ -9,7 +9,7 @@ import { Radio, RadioButtons } from "pallote-react"
 
 Allow users to select one option from a list. This component uses the base structure of the [Input](/docs/components/input) component.
 
-<div class="docs__block">
+<div class="docs_block">
   <RadioButtons label="Legend">
     <Radio name="radio" id="radio_1" value="1" label="Option 1" />
     <Radio name="radio" id="radio_2" value="2" label="Option 2" />
@@ -56,7 +56,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 ### Direction
 
-<div class="docs__block">
+<div class="docs_block">
   <RadioButtons label="Landscape">
     <Radio name="landscape" id="landscape_1" value="1" label="Option 1" />
     <Radio name="landscape" id="landscape_2" value="2" label="Option 2" />
@@ -118,7 +118,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 ### Error
 
-<div class="docs__block">
+<div class="docs_block">
   <RadioButtons label="Error" error>
     <Radio name="error" id="error_1" value="1" label="Option 1" />
     <Radio name="error" id="error_2" value="2" label="Option 2" />
@@ -157,7 +157,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 ### Disabled
 
-<div class="docs__block">
+<div class="docs_block">
   <RadioButtons label="Disabled" disabled>
     <Radio name="disabled" id="disabled_1" value="1" label="Option 1" />
     <Radio name="disabled" id="disabled_2" value="2" label="Option 2" />
@@ -196,7 +196,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 ### Optional
 
-<div class="docs__block">
+<div class="docs_block">
   <RadioButtons label="Optional" optional>
     <Radio name="optional" id="optional_1" value="1" label="Option 1" />
     <Radio name="optional" id="optional_2" value="2" label="Option 2" />

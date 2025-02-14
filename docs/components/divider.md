@@ -9,7 +9,7 @@ import { Divider, Grid } from "pallote-react"
 
 Line to separate content.
 
-<div class="docs__block">
+<div class="docs_block">
   <Divider/>
 </div>
 
@@ -32,9 +32,9 @@ Line to separate content.
 
 ### Direction
 
-<div class="docs__block">
+<div class="docs_block">
   <Divider/>
-  <div><Divider direction="portrait" /></div>
+  <div><Divider direction="portrait" className="h-4" /></div>
 </div>
 
 <Tabs groupId="package" queryString>
@@ -60,7 +60,7 @@ A divider automatically takes up to full width or height of its parent.
 
 ### Size
 
-<div class="docs__block">
+<div class="docs_block">
   <Divider size="sm" />
   <Divider/>
   <Divider size="lg" />

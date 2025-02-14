@@ -9,7 +9,7 @@ import { Radio } from "pallote-react"
 
 This component is mainly used as a child of the [Radio buttons](/docs/components/radio-buttons.md) component.
 
-<div class="docs__block">
+<div class="docs_block">
   <Radio name="radio" id="radio_1" value="1" label="Radio" />
 </div>
 
@@ -35,7 +35,7 @@ This component is mainly used as a child of the [Radio buttons](/docs/components
 
 ### Checked
 
-<div class="docs__block">
+<div class="docs_block">
   <Radio name="checked" id="checked_1" value="1" label="Checked" checked />
 </div>
 
@@ -59,7 +59,7 @@ This component is mainly used as a child of the [Radio buttons](/docs/components
 
 ### Disabled
 
-<div class="docs__block">
+<div class="docs_block">
   <Radio name="disabled" id="disabled_1" value="1" label="Disabled" disabled />
 </div>
 

@@ -9,7 +9,7 @@ import { Grid, Input } from "pallote-react"
 
 Allow users to enter text that will fit on a single line. This is the most basic form field.
 
-<div class="docs__block">
+<div class="docs_block">
   <Input id="input" label="Input" />
 </div>
 
@@ -44,7 +44,7 @@ For the CSS library, you do not need to add the `required` property to the form 
 
 Change the input type property.
 
-<div class="docs__block">
+<div class="docs_block">
   <Grid wrapper spacing={2}>
     <Grid item xs="6"><Input type="date" id="date" label="Date" /></Grid>
     <Grid item xs="6"><Input type="email" id="email" label="Email" /></Grid>
@@ -107,7 +107,7 @@ Change the input type property.
 
 Focus on a input on page load.
 
-<div class="docs__block">
+<div class="docs_block">
   <Input id="focused" label="IsFocused" isFocused />
 </div>
 
@@ -133,7 +133,7 @@ Focus on a input on page load.
 
 Notify users that the field has an error.
 
-<div class="docs__block">
+<div class="docs_block">
   <Input id="error" label="Error" error />
 </div>
 
@@ -159,7 +159,7 @@ Notify users that the field has an error.
 
 Add this class to signal users the field is disabled.
 
-<div class="docs__block">
+<div class="docs_block">
   <Input id="disabled" label="Disabled" disabled />
 </div>
 
@@ -183,7 +183,7 @@ Add this class to signal users the field is disabled.
 
 ### Optional
 
-<div class="docs__block">
+<div class="docs_block">
   <Input id="optional" label="Optional" optional />
 </div>
 

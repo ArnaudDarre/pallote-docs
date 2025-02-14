@@ -9,7 +9,7 @@ import { Button, Buttons } from "pallote-react"
 
 Component for every call-to-action.
 
-<div class="docs__block">
+<div class="docs_block">
   <Buttons>
     <Button>Save</Button>
     <Button color="secondary">Edit</Button>
@@ -43,7 +43,7 @@ Component for every call-to-action.
 
 Change the button style.
 
-<div class="docs__block">
+<div class="docs_block">
   <Buttons>
     <Button>Landscape</Button>
     <Button color="secondary">Landscape</Button>
@@ -85,7 +85,7 @@ Change the button style.
 
 ### FullWidth
 
-<div class="docs__block">
+<div class="docs_block">
   <Buttons fullWidth>
     <Button>Full width</Button>
     <Button color="secondary">Full width</Button>
@@ -115,7 +115,7 @@ Change the button style.
 
 ### Wide
 
-<div class="docs__block">
+<div class="docs_block">
   <Buttons wide>
     <Button>Wide</Button>
     <Button color="secondary">Wide</Button>
