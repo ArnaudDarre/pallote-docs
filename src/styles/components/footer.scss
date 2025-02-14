@@ -1,0 +1,39 @@
+.footer {
+  @include clamp(padding-right, $spacing-md, 4vw, $spacing-xl);
+  @include clamp(padding-left, $spacing-md, 4vw, $spacing-xl);
+  @include clamp(padding-top, $spacing-lg, 8vw, $spacing-xl);
+  @include clamp(padding-bottom, $spacing-lg, 8vw, $spacing-xl);
+  background-color: $grey-90;
+
+  .container {
+    padding: 0 !important;
+  }
+
+  &__title {
+    @extend %caption;
+    font-weight: $font-bold;
+    color: $primary-light;
+    border-bottom: $border-contrast;
+    padding-bottom: .5rem;
+  }
+
+  &__item {
+    margin-left: 0;
+  }
+
+  &__link-item {
+    line-height: $body-line-height;
+
+    &:hover {
+      color: $primary-light;
+    }
+  }
+  
+  &__copyright {
+    @extend %caption;
+    text-align: left;
+    border-top: $border-contrast;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+}

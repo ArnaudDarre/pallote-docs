@@ -1,6 +1,6 @@
 .pagination-nav {
   margin-top: 3rem;
-  margin-bottom: 2rem;
+  @include clamp(margin-bottom, $spacing-lg, 8vw, $spacing-xl);
   padding-top: 2rem;
   border-top: $border;
 

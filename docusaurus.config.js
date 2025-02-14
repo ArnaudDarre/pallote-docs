@@ -64,7 +64,7 @@ const config = {
         //   onUntruncatedBlogPosts: 'warn',
         // },
         theme: {
-          customCss: './src/styles/custom.scss',
+          customCss: './src/styles/style.scss',
         },
       }),
     ],
@@ -92,7 +92,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {to: '/', label: 'Home', position: 'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -105,9 +104,22 @@ const config = {
           //   position: 'right'
           // },
           {
+            href: 'https://github.com/sponsors/ArnaudDarre',
+            label: 'Sponsor',
+            position: 'right',
+            className: 'navbar__item navbar__link nav-item-custom nav-item-custom-sponsor',
+          },
+          {
+            href: 'https://react.pallote.com/',
+            label: 'Storybook',
+            position: 'right',
+            className: 'navbar__item navbar__link nav-item-custom nav-item-custom-storybook',
+          },
+          {
             href: 'https://github.com/ArnaudDarre/pallote-docs',
             label: 'GitHub',
             position: 'right',
+            className: 'navbar__item navbar__link nav-item-custom nav-item-custom-github',
           },
         ],
       },
@@ -115,42 +127,58 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
-                label: 'Documentation',
+                label: 'Getting started',
                 to: '/docs/category/getting-started',
+              },
+              {
+                label: 'Variables',
+                to: '/docs/category/variables',
+              },
+              {
+                label: 'Utilities',
+                to: '/docs/category/utilities',
+              },
+              {
+                label: 'Components',
+                to: '/docs/category/components',
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'X',
-          //       href: 'https://x.com/docusaurus',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'GitHub',
+            items: [
+              {
+                label: 'Documentation',
+                href: 'https://github.com/ArnaudDarre/pallote-docs',
+                className: 'footer__link-item nav-item-custom nav-item-custom-github',
+              },
+              {
+                label: 'Pallote React',
+                href: 'https://github.com/ArnaudDarre/pallote-react',
+                className: 'footer__link-item nav-item-custom nav-item-custom-github',
+              },
+              {
+                label: 'Pallote CSS',
+                href: 'https://github.com/ArnaudDarre/pallote-css',
+                className: 'footer__link-item nav-item-custom nav-item-custom-github',
+              },
+            ],
+          },
           {
             title: 'More',
             items: [
+              {
+                label: 'Storybook',
+                href: 'https://react.pallote.com/',
+                className: 'footer__link-item nav-item-custom nav-item-custom-storybook',
+              },
               // {
               //   label: 'Blog',
               //   to: '/blog',
               // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/ArnaudDarre/pallote-docs',
-              },
             ],
           },
         ],

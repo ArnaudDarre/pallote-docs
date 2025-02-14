@@ -28,7 +28,10 @@
 }
 
 nav.menu {
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  @include clamp(padding-bottom, $spacing-lg, 8vw, $spacing-xl);
+  @include clamp(padding-left, $spacing-md, 4vw, $spacing-xl);
 
   li {
     margin-left: 0;

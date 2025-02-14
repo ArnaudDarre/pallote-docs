@@ -1,4 +1,6 @@
 .navbar {
+  @include clamp(padding-right, $spacing-md, 4vw, $spacing-xl);
+  @include clamp(padding-left, $spacing-md, 4vw, $spacing-xl);
   height: $navbar-height;
   position: fixed;
 
@@ -19,4 +21,41 @@
       background-color: $hover;
     }
   }
+}
+
+.nav-item-custom {
+  padding-left: 1.3em;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 0.25em;
+    margin-left: -1.3em;
+  }
+  
+  &-github:before {
+    background-image: url("/logos/github-dark.svg");
+
+    .footer & {
+      background-image: url("/logos/github-light.svg");
+    }
+  }
+
+  &-storybook:before {
+    background-image: url("/logos/storybook-dark.svg");
+
+    .footer & {
+      background-image: url("/logos/storybook-light.svg");
+    }
+  }
+
+  &-sponsor:before {
+    background-image: url("/icons/phosphor/heart.svg");
+  }
+
+  svg { display: none; }
 }

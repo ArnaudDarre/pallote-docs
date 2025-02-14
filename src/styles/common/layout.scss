@@ -15,7 +15,7 @@
 
 .container {
   padding-top: $navbar-height !important;
-  padding-right: 2rem;
+  @include clamp(padding-right, $spacing-md, 4vw, $spacing-xl);
   padding-bottom: 0 !important;
   padding-left: 2rem;
 

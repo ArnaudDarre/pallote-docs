@@ -3,6 +3,10 @@ $icons-path: '~/static/icons/';
 
 @import '~/node_modules/pallote-css/dist/pallote.scss';
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   // typography
   --ifm-font-family-base: $font;
@@ -65,6 +69,7 @@ a {
 @import './components/button.scss';
 @import './components/card.scss';
 @import './components/code-block.scss';
+@import './components/footer.scss';
 @import './components/navbar.scss';
 @import './components/pagination.scss';
 @import './components/sidebar.scss';
