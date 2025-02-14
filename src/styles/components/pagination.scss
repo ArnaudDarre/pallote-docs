@@ -6,6 +6,8 @@
 
   &__link {
     border-radius: $border-radius-md !important;
+    border: $border;
+    background-color: $background-paper;
     
     &:hover {
       border-color: $primary !important;

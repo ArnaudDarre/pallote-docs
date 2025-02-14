@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Pallote React',
-  tagline: 'Open-source React Component library',
+  title: 'Pallote',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -88,7 +88,7 @@ const config = {
       navbar: {
         title: 'Pallote',
         logo: {
-          alt: 'Logo for Pallote React',
+          alt: 'Logo for Pallote',
           src: 'img/logo.svg',
         },
         items: [
@@ -156,12 +156,12 @@ const config = {
                 className: 'footer__link-item nav-item-custom nav-item-custom-github',
               },
               {
-                label: 'Pallote React',
+                label: 'React',
                 href: 'https://github.com/ArnaudDarre/pallote-react',
                 className: 'footer__link-item nav-item-custom nav-item-custom-github',
               },
               {
-                label: 'Pallote CSS',
+                label: 'CSS',
                 href: 'https://github.com/ArnaudDarre/pallote-css',
                 className: 'footer__link-item nav-item-custom nav-item-custom-github',
               },
