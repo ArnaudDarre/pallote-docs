@@ -4,6 +4,26 @@
   height: $navbar-height;
   position: fixed;
 
+  &__brand {
+    display: flex;
+    align-items: flex-end;
+    transform: translateY(-2px);
+  }
+
+  &__logo {
+    height: 1.6rem;
+
+    * {
+      margin-right: 0;
+    }
+  }
+
+  &__title {
+    font-weight: $font-bold;
+    font-size: 1.125rem;
+    line-height: 1;
+  }
+
   &__items {
     gap: .5rem;
   }
