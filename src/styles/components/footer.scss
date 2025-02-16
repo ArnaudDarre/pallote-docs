@@ -1,12 +1,13 @@
 .footer {
-  @include clamp(padding-right, $spacing-md, 4vw, $spacing-xl);
-  @include clamp(padding-left, $spacing-md, 4vw, $spacing-xl);
-  @include clamp(padding-top, $spacing-lg, 8vw, $spacing-xl);
-  @include clamp(padding-bottom, $spacing-lg, 8vw, $spacing-xl);
+  @include clamp(padding-right, 1.5rem, 4vw, 4rem);
+  @include clamp(padding-left, 1.5rem, 4vw, 4rem);
+  @include clamp(padding-top, 2rem, 8vw, 4rem);
+  @include clamp(padding-bottom, 2rem, 8vw, 4rem);
   background-color: $grey-90;
 
   .container {
     padding: 0 !important;
+    max-width: unset;
   }
 
   &__title {
@@ -22,6 +23,8 @@
   }
 
   &__link-item {
+    display: flex;
+    align-items: center;
     line-height: $body-line-height;
 
     &:hover {
@@ -30,10 +33,10 @@
   }
   
   &__copyright {
+    @include clamp(margin-top, 2rem, 8vw, 4rem);
     @extend %caption;
     text-align: left;
     border-top: $border-contrast;
-    margin-top: 2rem;
     padding-top: 1rem;
   }
 
@@ -43,7 +46,11 @@
 
     .footer__col {
       padding: 0 !important;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }

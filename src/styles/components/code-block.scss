@@ -72,7 +72,33 @@ code {
   }
 
   .plain-text { color: $text-contrast; }
+  .plain { color: $primary-light; }
   // .class-name,.tag:not(.attr-value):not(.attr-name):not(.punctuation) { color: $primary !important; }
   // .punctuation { color: $grey-20 !important; }
   // .attr-name { color: $primary-light !important; }
+}
+
+// code on index page
+
+#section-install {
+
+  pre {
+    background-color: $grey-90;
+    color: $text-contrast;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+
+    &:not(:last-of-type) {
+      margin-bottom: .5rem;
+    }
+    
+    .language-shell {
+      color: $primary-light;
+    }
+  }
 }

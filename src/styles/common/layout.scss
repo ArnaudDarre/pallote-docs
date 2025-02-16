@@ -9,13 +9,13 @@
 
 .main-wrapper {
   min-height: 100vh;
+  padding-top: $navbar-height !important;
 }
 
 // container
 
 .container {
-  padding-top: $navbar-height !important;
-  @include clamp(padding-right, $spacing-md, 4vw, $spacing-xl);
+  @include clamp(padding-right, 1.5rem, 4vw, 4rem);
   padding-bottom: 0 !important;
   padding-left: 2rem;
 

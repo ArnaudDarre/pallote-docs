@@ -1,6 +1,6 @@
 .navbar {
-  @include clamp(padding-right, $spacing-md, 4vw, $spacing-xl);
-  @include clamp(padding-left, $spacing-md, 4vw, $spacing-xl);
+  @include clamp(padding-right, 1.5rem, 4vw, 4rem);
+  @include clamp(padding-left, 1.5rem, 4vw, 4rem);
   height: $navbar-height;
   position: fixed;
 
@@ -19,13 +19,20 @@
   }
 
   &__title {
-    font-weight: $font-bold;
+    font-weight: 900;
     font-size: 1.125rem;
     line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   &__items {
     gap: .5rem;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
   }
 
   &__link {
@@ -44,17 +51,15 @@
 }
 
 .nav-item-custom {
-  padding-left: 1.3em;
 
   &:before {
     content: "";
-    position: absolute;
+    display: inline-block;
     width: 1em;
     height: 1em;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-top: 0.25em;
-    margin-left: -1.3em;
+    margin-right: .25em;
   }
   
   &-github:before {
