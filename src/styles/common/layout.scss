@@ -37,18 +37,26 @@
 
 .theme-doc-markdown {
   
-  h2 {
+  > h2 {
     margin-bottom: 2rem;
     padding-top: 2rem;
     border-top: $border;
   }
 
-  h2 + p {
+  > h2 + p {
     margin-top: -1rem;
   }
   
-  h3 + p {
+  > h3 + p {
     margin-top: -.5rem;
+  }
+
+  > p, > ul {
+    max-width: 600px;
+  }
+
+  h1.section_title {
+    margin-bottom: 0;
   }
 }
 
@@ -86,6 +94,11 @@
     &-portrait {
       flex-direction: column;
     }
+
+    .docs-doc-id-components\/section & {
+      gap: 0;
+    }
+
   }
   
   &_row {
